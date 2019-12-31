@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/siriusthewolf/DnDCharSheet&#10;&#10;# Conflicts:&#10;#&#9;Beggining.py">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Draft.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beggining.py" beforeDir="false" afterPath="$PROJECT_DIR$/Beggining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attribute_roll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/siriusthewolf/DnDCharSheet.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UiXS82tzPZQhiGnhZgKIAmDs0S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="" />
+      <created>1575840386795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575840386795</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="368" y="27" width="619" height="734" key="#Beggining" timestamp="1575840575016">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="368" y="27" width="619" height="734" key="#Beggining/0.27.1366.741@0.27.1366.741" timestamp="1575840575016" />
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575842173634">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1575842173634" />
+    <state x="419" y="237" width="518" height="318" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577770475079">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="419" y="237" width="518" height="318" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.32.1366.736@0.32.1366.736" timestamp="1577770475079" />
+    <state x="289" y="32" width="777" height="729" key="CommitChangelistDialog2" timestamp="1577835903093">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="289" y="32" width="777" height="729" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1577835903093" />
+    <state x="100" y="132" width="1166" height="536" key="DiffContextDialog" timestamp="1577834746926">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="100" y="132" width="1166" height="536" key="DiffContextDialog/0.32.1366.736@0.32.1366.736" timestamp="1577834746926" />
+    <state x="456" y="151" width="424" height="477" key="FileChooserDialogImpl" timestamp="1577835481142">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="456" y="147" width="424" height="477" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1575840756001" />
+    <state x="456" y="151" width="424" height="477" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1577835481142" />
+    <state width="1343" height="174" key="GridCell.Tab.0.bottom" timestamp="1577835648064">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1575843173563" />
+    <state width="1343" height="174" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1577835648064" />
+    <state width="1343" height="174" key="GridCell.Tab.0.center" timestamp="1577835648063">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1575843173561" />
+    <state width="1343" height="174" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1577835648063" />
+    <state width="1343" height="174" key="GridCell.Tab.0.left" timestamp="1577835648062">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1575843173559" />
+    <state width="1343" height="174" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1577835648062" />
+    <state width="1343" height="174" key="GridCell.Tab.0.right" timestamp="1577835648063">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1343" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1575843173562" />
+    <state width="1343" height="174" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1577835648063" />
+    <state x="127" y="87" width="1092" height="611" key="MergeDialog" timestamp="1577835970005">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="127" y="87" width="1092" height="611" key="MergeDialog/0.32.1366.736@0.32.1366.736" timestamp="1577835970005" />
+    <state x="388" y="129" width="580" height="534" key="MultipleFileMergeDialog" timestamp="1577835972645">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="388" y="129" width="580" height="534" key="MultipleFileMergeDialog/0.32.1366.736@0.32.1366.736" timestamp="1577835972645" />
+    <state x="172" y="37" key="SettingsEditor" timestamp="1577835770410">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1575842221714" />
+    <state x="172" y="37" key="SettingsEditor/0.32.1366.736@0.32.1366.736" timestamp="1577835770410" />
+    <state x="278" y="136" width="800" height="521" key="Vcs.Push.Dialog.v2" timestamp="1577834544123">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="136" width="800" height="521" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1577834544123" />
+    <state x="339" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1577835682322">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1575842155736" />
+    <state x="339" y="229" key="com.intellij.ide.util.TipDialog/0.32.1366.736@0.32.1366.736" timestamp="1577835682322" />
+    <state x="331" y="193" width="694" height="406" key="git4idea.merge.GitPullDialog" timestamp="1577834632293">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="331" y="193" width="694" height="406" key="git4idea.merge.GitPullDialog/0.32.1366.736@0.32.1366.736" timestamp="1577834632293" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1577124140766">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.32.1366.736@0.32.1366.736" timestamp="1577124140766" />
+  </component>
+</project>
