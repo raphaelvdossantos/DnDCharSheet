@@ -25,6 +25,3 @@ races_dict = {"a":"Elfo", "b":"Meio- Elfo", "c":"Meio-Orc", "d":"Anão", "e":"Ha
 choose_race= input("Qual a raça do seu personagem:" + str(races_dict))
 chosen_race = str(races_dict[choose_race])
 print(chosen_race)
-
-
-

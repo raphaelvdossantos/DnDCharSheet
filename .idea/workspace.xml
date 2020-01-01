@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/siriusthewolf/DnDCharSheet&#10;&#10;# Conflicts:&#10;#&#9;Beggining.py">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Draft.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Beggining.py" beforeDir="false" afterPath="$PROJECT_DIR$/Beggining.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attribute_roll.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/attribute_roll.py" beforeDir="false" afterPath="$PROJECT_DIR$/attribute_roll.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -84,11 +72,19 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/siriusthewolf/DnDCharSheet&#10;&#10;# Conflicts:&#10;#&#9;Beggining.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/siriusthewolf/DnDCharSheet&#10;&#10;# Conflicts:&#10;#&#9;Beggining.py" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="368" y="27" width="619" height="734" key="#Beggining" timestamp="1575840575016">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="368" y="27" width="619" height="734" key="#Beggining/0.27.1366.741@0.27.1366.741" timestamp="1575840575016" />
+    <state x="278" y="61" width="800" height="670" key="#Notifications" timestamp="1577836826678">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="61" width="800" height="670" key="#Notifications/0.32.1366.736@0.32.1366.736" timestamp="1577836826678" />
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575842173634">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -97,10 +93,10 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="419" y="237" width="518" height="318" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.32.1366.736@0.32.1366.736" timestamp="1577770475079" />
-    <state x="289" y="32" width="777" height="729" key="CommitChangelistDialog2" timestamp="1577835903093">
+    <state x="289" y="32" width="777" height="729" key="CommitChangelistDialog2" timestamp="1577837334694">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="289" y="32" width="777" height="729" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1577835903093" />
+    <state x="289" y="32" width="777" height="729" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1577837334694" />
     <state x="100" y="132" width="1166" height="536" key="DiffContextDialog" timestamp="1577834746926">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -152,6 +148,10 @@
     </state>
     <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1575842155736" />
     <state x="339" y="229" key="com.intellij.ide.util.TipDialog/0.32.1366.736@0.32.1366.736" timestamp="1577835682322" />
+    <state x="451" y="320" width="454" height="153" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577837178189">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="451" y="320" width="454" height="153" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.32.1366.736@0.32.1366.736" timestamp="1577837178189" />
     <state x="331" y="193" width="694" height="406" key="git4idea.merge.GitPullDialog" timestamp="1577834632293">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -160,5 +160,9 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.32.1366.736@0.32.1366.736" timestamp="1577124140766" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577836899828">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1577836899828" />
   </component>
 </project>
