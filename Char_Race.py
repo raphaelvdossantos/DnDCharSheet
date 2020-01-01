@@ -1,4 +1,5 @@
-#Modificação de atributo de acordo com a raça do personagem
+# Modificação de atributo de acordo com a raça do personagem
+
 
 def race(char_race, char_attribute, attribute_values):
 
