@@ -3,40 +3,42 @@
 
 def race(char_race, char_attribute, attribute_values):
 
+    final_attributes = attribute_values
     try:
         if char_race.lower() == "elfo":
-            char_attribute[2] += " " + str((attribute_values[2] - 2))
-            char_attribute[3] += " " + str((attribute_values[3] + 2))
+            final_attributes[2] = attribute_values[2] - 2
+            final_attributes[1] = attribute_values[1] + 2
             for b in range(len(char_attribute)):
-                char_attribute[b] += " " + str(attribute_values[b])
+                char_attribute[b] += " " + str(final_attributes[b])
             return char_attribute
 
         elif char_race.lower() == "meio elfo":
-            char_attribute[2] += " " + str((attribute_values[2] - 2))
-            char_attribute[3] += " " + str((attribute_values[3] + 2))
+            final_attributes[2] = attribute_values[2] - 2
+            final_attributes[1] = attribute_values[1] + 2
             for b in range(len(char_attribute)):
-                char_attribute[b] += " " + str(attribute_values[b])
+                char_attribute[b] += " " + str(final_attributes[b])
             return char_attribute
 
         elif char_race.lower() == "meio orc":
-            char_attribute[2] += " " + str((attribute_values[2] - 2))
-            char_attribute[3] += " " + str((attribute_values[3] + 2))
+            final_attributes[3] = attribute_values[3] - 2
+            final_attributes[5] = attribute_values[5] - 2
+            final_attributes[0] = attribute_values[0] + 2
             for b in range(len(char_attribute)):
-                char_attribute[b] += " " + str(attribute_values[b])
+                char_attribute[b] += " " + str(final_attributes[b])
             return char_attribute
 
         elif char_race.lower() == "anão":
-            char_attribute[2] += " " + str((attribute_values[2] - 2))
-            char_attribute[3] += " " + str((attribute_values[3] + 2))
+            final_attributes[5] = attribute_values[5] - 2
+            final_attributes[2] = attribute_values[2] + 2
             for b in range(len(char_attribute)):
-                char_attribute[b] += " " + str(attribute_values[b])
+                char_attribute[b] += " " + str(final_attributes[b])
             return char_attribute
 
         elif char_race.lower() == "halfing":
-            char_attribute[2] += " " + str((attribute_values[2] - 2))
-            char_attribute[3] += " " + str((attribute_values[3] + 2))
+            final_attributes[0] = attribute_values[0] - 2
+            final_attributes[1] = attribute_values[1] + 2
             for b in range(len(char_attribute)):
-                char_attribute[b] += " " + str(attribute_values[b])
+                char_attribute[b] += " " + str(final_attributes[b])
             return char_attribute
     except:
         print("Opção Inválida, selecione novamente:")
