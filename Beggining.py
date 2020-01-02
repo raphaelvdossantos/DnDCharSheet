@@ -23,7 +23,7 @@ for i in range(len(rolled_values)):
 
 
 races_dict = {"a":"Elfo", "b":"Meio- Elfo", "c":"Meio-Orc", "d":"Anão", "e":"Halfling"}
-choose_race = input("Qual a raça do seu personagem:" + str(races_dict))
+choose_race = input("Qual a raça do seu personagem: \nEscolha a Letra equivalente a raça." + str(races_dict))
 chosen_race = str(races_dict[choose_race])
 
 print(chosen_race, " ", Char_Race.race(chosen_race, attributes, values))
