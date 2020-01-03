@@ -1,9 +1,8 @@
-import Attribute_Roll as roll
-import Char_Race
+import Character_Sheet
 
 char_name = input("Qual o nome do seu personagem? ")
 
-rolled_values = roll.attributes_roll()
+rolled_values = Character_Sheet.attributes_roll()
 
 print("Os valores rolados para os atributos foram:", rolled_values)
 
@@ -30,5 +29,5 @@ classes_dict ={"a":"Barbaro", "b":"Guerreiro", "c":"Mago", "d":"Clerigo", "e":"R
 choose_class = input("Qual a Classe do seu personagem?\n" + str(classes_dict))
 chosen_class = str(classes_dict[choose_class])
 
-print(char_name, "  ", chosen_race, "  ", chosen_class, "\n", Char_Race.race(chosen_race, attributes, values))
+print(char_name, "  ", chosen_race, "  ", chosen_class, "\n", Character_Sheet.race(chosen_race, attributes, values))
 
