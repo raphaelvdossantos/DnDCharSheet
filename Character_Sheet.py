@@ -1,4 +1,4 @@
-import attribute_roll as roll
+import Attribute_Roll as roll
 import Char_Race
 
 char_name = input("Qual o nome do seu personagem? ")
@@ -23,7 +23,12 @@ for i in range(len(rolled_values)):
 
 
 races_dict = {"a":"Elfo", "b":"Meio- Elfo", "c":"Meio-Orc", "d":"Anão", "e":"Halfling"}
-choose_race = input("Qual a raça do seu personagem: \nEscolha a Letra equivalente a raça." + str(races_dict))
+choose_race = input("Qual a raça do seu personagem? \nEscolha a Letra equivalente a raça.\n" + str(races_dict))
 chosen_race = str(races_dict[choose_race])
 
-print(chosen_race, " ", Char_Race.race(chosen_race, attributes, values))
+classes_dict ={"a":"Barbaro", "b":"Guerreiro", "c":"Mago", "d":"Clerigo", "e":"Ranger"}
+choose_class = input("Qual a Classe do seu personagem?\n" + str(classes_dict))
+chosen_class = str(classes_dict[choose_class])
+
+print(char_name, "  ", chosen_race, "  ", chosen_class, "\n", Char_Race.race(chosen_race, attributes, values))
+

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Character_Sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Character_Sheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Beggining.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Character_Sheet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,11 +114,11 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="278" y="61" width="800" height="670" key="#Notifications/0.32.1366.736@0.32.1366.736" timestamp="1577836826678" />
-    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577942317424">
+    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578031130915">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1575842173634" />
-    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1577942317424" />
+    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1578031130915" />
     <state x="419" y="237" width="518" height="318" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577770475079">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -135,26 +136,26 @@
     </state>
     <state x="456" y="147" width="424" height="477" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1575840756001" />
     <state x="456" y="151" width="424" height="477" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1577835481142" />
-    <state width="1343" height="171" key="GridCell.Tab.0.bottom" timestamp="1577999584253">
+    <state width="1343" height="171" key="GridCell.Tab.0.bottom" timestamp="1578031113304">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1575843173563" />
-    <state width="1343" height="171" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1577999584253" />
-    <state width="1343" height="171" key="GridCell.Tab.0.center" timestamp="1577999584252">
+    <state width="1343" height="171" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1578031113304" />
+    <state width="1343" height="171" key="GridCell.Tab.0.center" timestamp="1578031113303">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1575843173561" />
-    <state width="1343" height="171" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1577999584252" />
-    <state width="1343" height="171" key="GridCell.Tab.0.left" timestamp="1577999584251">
+    <state width="1343" height="171" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1578031113303" />
+    <state width="1343" height="171" key="GridCell.Tab.0.left" timestamp="1578031113303">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1575843173559" />
-    <state width="1343" height="171" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1577999584251" />
-    <state width="1343" height="171" key="GridCell.Tab.0.right" timestamp="1577999584252">
+    <state width="1343" height="171" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1578031113303" />
+    <state width="1343" height="171" key="GridCell.Tab.0.right" timestamp="1578031113304">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1575843173562" />
-    <state width="1343" height="171" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1577999584252" />
+    <state width="1343" height="171" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1578031113304" />
     <state x="127" y="87" width="1092" height="611" key="MergeDialog" timestamp="1577835970005">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
