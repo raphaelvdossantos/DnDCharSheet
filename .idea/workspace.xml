@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Character_Sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Character_Sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Char_Race.py" beforeDir="false" afterPath="$PROJECT_DIR$/Char_Race.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration name="Beggining" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Character_Sheet" type="PythonConfigurationType" factoryName="Python">
       <module name="Draft" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +70,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Beggining" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -110,15 +105,19 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="368" y="27" width="619" height="734" key="#Beggining/0.27.1366.741@0.27.1366.741" timestamp="1575840575016" />
+    <state x="278" y="46" width="800" height="722" key="#Intentions" timestamp="1578080469698">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="46" width="800" height="722" key="#Intentions/0.32.1366.736@0.32.1366.736" timestamp="1578080469698" />
     <state x="278" y="61" width="800" height="670" key="#Notifications" timestamp="1577836826678">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="278" y="61" width="800" height="670" key="#Notifications/0.32.1366.736@0.32.1366.736" timestamp="1577836826678" />
-    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578031130915">
+    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578080500633">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1575842173634" />
-    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1578031130915" />
+    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1578080500633" />
     <state x="419" y="237" width="518" height="318" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577770475079">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -136,26 +135,26 @@
     </state>
     <state x="456" y="147" width="424" height="477" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1575840756001" />
     <state x="456" y="151" width="424" height="477" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1577835481142" />
-    <state width="1343" height="171" key="GridCell.Tab.0.bottom" timestamp="1578031113304">
+    <state width="1343" height="171" key="GridCell.Tab.0.bottom" timestamp="1578031668492">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1575843173563" />
-    <state width="1343" height="171" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1578031113304" />
-    <state width="1343" height="171" key="GridCell.Tab.0.center" timestamp="1578031113303">
+    <state width="1343" height="171" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1578031668492" />
+    <state width="1343" height="171" key="GridCell.Tab.0.center" timestamp="1578031668491">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1575843173561" />
-    <state width="1343" height="171" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1578031113303" />
-    <state width="1343" height="171" key="GridCell.Tab.0.left" timestamp="1578031113303">
+    <state width="1343" height="171" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1578031668491" />
+    <state width="1343" height="171" key="GridCell.Tab.0.left" timestamp="1578031668490">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1575843173559" />
-    <state width="1343" height="171" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1578031113303" />
-    <state width="1343" height="171" key="GridCell.Tab.0.right" timestamp="1578031113304">
+    <state width="1343" height="171" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1578031668490" />
+    <state width="1343" height="171" key="GridCell.Tab.0.right" timestamp="1578031668492">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1575843173562" />
-    <state width="1343" height="171" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1578031113304" />
+    <state width="1343" height="171" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1578031668492" />
     <state x="127" y="87" width="1092" height="611" key="MergeDialog" timestamp="1577835970005">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
