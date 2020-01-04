@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #BFBFBF;
+    min-height: 100%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-bg {
+    border-bottom: 4px solid #1F1F23;
+    max-height: 93px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+header {
+   width: 80%;
+   margin: 0 131px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   justify-items: space-between;
+   align-items: center;
+   
+}
+
+.header-menu {
+    max-width: 53px;
+    height: 39px;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+.header-menu:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.characters-list {
+    width: 80%;
+    margin: 55px auto;
+}
+
+.characters-list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 57px;
+    grid-row-gap: 57px;
+}
+
+.character-item {
+    background: #1F1F23;
+    text-align: center;
+    padding: 13px 25px 0;
+    color: #BFBFBF;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+
+.character-item:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.character-menu {
+    display: block;
+    position: relative;
+    max-width: 23px;
+    height: auto;
+    margin: 15px 13px 0 auto;
+    transition: 200ms;
+}
+
+.character-menu:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.character-avatar {
+    margin: 20px 0 10px 0;
+}
+
+.character-name {
+    padding: 4px 0 24px 0;
+    font-size: 35px;
+}
+
+.character-description {
+    display: flex;
+    padding-bottom: 19px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.character-description p {
+    margin: 0 6px;
+}
+
+.character-level {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 37px;
+}
+
+.character-level p {
+    margin: 0 6px;
+}
+
+.add-character {
+    position: fixed;
+    bottom: 50px;
+    right: 131px;
+    max-width: 73px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.add-character img {
+    max-width: 73px;
+    height: auto;
+    transition: 200ms;
+}
+
+.add-character img:hover {
+    transform: scale(1.05);
+}
+
