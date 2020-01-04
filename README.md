@@ -10,7 +10,7 @@ The goal is to make a character sheet where you won't need to keep notes of all 
 helping with the math and thus improving roleplay experience.
 
 TO RUN THE CHARACTER SHEET:
-Fork the repository, Clone it and Run Character_Sheet.py
+Fork the repository, Clone it and Run Character_Creation.py
 
 *Python 3+ required
 
