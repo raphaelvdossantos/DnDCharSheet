@@ -78,12 +78,12 @@ class Character_Sheet:
         if self.lower() == "barbaro":
             weapons_list =[0, 0]
             for a, weapon in enumerate(weapons_list):
-                weapons_list[a] = list.weapons[dice.randint(1, len(list.weapons)-1)]["Name"]
+                weapons_list[a] = list.fighter_weapons[dice.randint(1, len(list.fighter_weapons)-1)]["Name"]
             return weapons_list
         elif self.lower() == "guerreiro":
             weapons_list =[0]
             for a, weapon in enumerate(weapons_list):
-                weapons_list[a] = list.weapons[dice.randint(1, len(list.weapons)-1)]["Name"]
+                weapons_list[a] = list.fighter_weapons[dice.randint(1, len(list.fighter_weapons)-1)]["Name"]
             return weapons_list
 
     # Method to roll tasks and skills
