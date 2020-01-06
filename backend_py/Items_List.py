@@ -5,9 +5,9 @@
 # WEAPONS
 
 
-Club = {"Name": "Club", "Price": 0, "Damage S": "d4", "Damage M ": "d6", "Critical": 2, "Range": 1.5, "Weight": 1.5}
-Dagger = {"Name": "Dagger", "Price": 2, "Damage S": "d3", "Damage M": "d4", "Critical": 2, "Range": 1.5, "Weight": 0.5}
-Heavy_Mace = {"Name": "Heavy Mace", "Price": 12, "Damage S": "d6", "Damage M": "d8", "Critical": 2, "Range": 1.5, "Weight": 5}
-Morningstar = {"Name": "Morningstar", "Price": 8, "Damage S": "d6", "Damage M": "d8", "Critical": 2, "Range": 1.5, "Weight": 3.5}
+Club = {"Name": "Club", "Price": 0, "Damage S": 8, "Damage M ": 4, "Critical": 2, "Range": 1.5, "Weight": 1.5}
+Dagger = {"Name": "Dagger", "Price": 2, "Damage S": "d3", "Damage M": 4, "Critical": 2, "Range": 1.5, "Weight": 0.5}
+Heavy_Mace = {"Name": "Heavy Mace", "Price": 12, "Damage S": 6, "Damage M": 8, "Critical": 2, "Range": 1.5, "Weight": 5}
+Morningstar = {"Name": "Morningstar", "Price": 8, "Damage S": 6, "Damage M": 8, "Critical": 2, "Range": 1.5, "Weight": 3.5}
 
 fighter_weapons = [Club, Dagger, Heavy_Mace, Morningstar]

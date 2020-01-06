@@ -1,4 +1,4 @@
-import Character_Sheet as new_character
+import backend_py.Character_Sheet as new_character
 
 
 char_name = input("Qual o nome do seu personagem? ")

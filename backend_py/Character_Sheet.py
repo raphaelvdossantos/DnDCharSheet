@@ -1,7 +1,7 @@
 # Character Sheet
 
 import random as dice
-import Items_List as list
+import backend_py.Items_List as list
 
 
 class Character_Sheet:
@@ -25,7 +25,6 @@ class Character_Sheet:
             print("System Error")
 
     def race(self, char_attribute, attribute_values):
-
 
         final_attributes = attribute_values
         attributes = {}
@@ -69,12 +68,12 @@ class Character_Sheet:
                 for a, b in enumerate(char_attribute):
                     attributes[char_attribute[a]] = final_attributes[a]
                 return attributes
-        except:
-            print("Opção Inválida, selecione novamente:")
-            return "inválido"
+        except Exception as e:
+            print("Algo deu errado, procure por ", e)
 
     # Definition of Items and Skills accordingly to the chosen class
     def char_class(self):
+
         if self.lower() == "barbaro":
             weapons_list =[0, 0]
             for a, weapon in enumerate(weapons_list):
