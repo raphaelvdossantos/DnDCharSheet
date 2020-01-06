@@ -2,7 +2,7 @@
 
 import random as dice
 import backend_py.Items_List as list
-
+import backend_py.Saving_Throws as saving
 
 class Character_Sheet:
 # Definition of the Character's Attributes
@@ -75,15 +75,25 @@ class Character_Sheet:
     def char_class(self):
 
         if self.lower() == "barbaro":
+            Fortitude = saving.Proficiency
+            Reflex = saving.Nonroficiency
+            Will = saving.Nonroficiency
+            Savings = [Fortitude, Reflex, Will]
             weapons_list =[0, 0]
             for a, weapon in enumerate(weapons_list):
-                weapons_list[a] = list.fighter_weapons[dice.randint(1, len(list.fighter_weapons)-1)]["Name"]
-            return weapons_list
+                weapons_list[a] = list.fighter_basic_weapons[dice.randint(1, len(list.fighter_basic_weapons)-1)]["Name"]
+            return weapons_list, Savings
+
         elif self.lower() == "guerreiro":
+
+            Fortitude = saving.Proficiency
+            Reflex = saving.Nonroficiency
+            Will = saving.Nonroficiency
+            Savings = [Fortitude, Reflex, Will]
             weapons_list =[0]
             for a, weapon in enumerate(weapons_list):
-                weapons_list[a] = list.fighter_weapons[dice.randint(1, len(list.fighter_weapons)-1)]["Name"]
-            return weapons_list
+                weapons_list[a] = list.fighter_basic_weapons[dice.randint(1, len(list.fighter_basic_weapons)-1)]["Name"]
+            return weapons_list, Savings
 
     # Method to roll tasks and skills
     def roll_task(task, modificators):
