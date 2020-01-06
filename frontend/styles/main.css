@@ -2,6 +2,13 @@
 
 html, body {
     height: 100%;
+    overflow-x: hidden;
+}
+
+#content {
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    width: 100%;
 }
 
 body {
@@ -9,6 +16,7 @@ body {
     min-height: 100%;
     position: relative;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden  ;
 }
 
 .hero-bg {
@@ -22,8 +30,8 @@ header {
    width: 80%;
    margin: 0 131px;
    display: grid;
-   grid-template-columns: 1fr 2fr;
-   justify-items: space-between;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: space-around;
    align-items: center;
    
 }
@@ -39,6 +47,87 @@ header {
     opacity: 50%;
     cursor: pointer;
 }
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background:#6E98E1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: all 0.7s ease;
+    box-shadow: 3px 0 15px black;
+}
+
+.close {
+    position: absolute;
+    top: 25.5px;
+    right: 22px;
+    margin-left: 50px;
+    font-size: 39px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-logo-div {
+    width: 400px;
+    text-align: center;
+}
+
+.menu-logo {
+    position: relative;
+    margin: 0 auto;
+}
+
+.welcome-user {
+    width: 400px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.user-name {
+    width: 400px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 0 0 16px 0;
+}
+
+.menu-list {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.menu-list li {
+    width: 400px;
+    display: flex;
+}
+
+.menu-list li img {
+    padding-left: 27px;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 18px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.menu-list li a:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+
 
 .characters-list {
     width: 80%;
@@ -67,12 +156,35 @@ header {
     cursor: pointer;
 }
 
+.options ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 0;
+    overflow-y: hidden;
+    transition: all 0.7s ease;
+}
+
+.options li {
+    width: 100%;
+    margin: 5px;
+}
+
+.options li:hover {
+    opacity: 0.5;
+}
+
+.options li a {
+    text-decoration: none;
+    color: #BFBFBF;
+}
+
 .character-menu {
     display: block;
     position: relative;
     max-width: 23px;
     height: auto;
-    margin: 15px 13px 0 auto;
+    margin: 15px 13px 10px auto;
     transition: 200ms;
 }
 
