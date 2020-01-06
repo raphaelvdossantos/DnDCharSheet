@@ -6,53 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="app.js"></script>
     <title>Rolling Dices</title>
 </head>
 <body>
-    <header>
-        <h1 class="titulo-logo">Roling Dices</h1>
-    </header>
-    <main>
-        <div class="lista-personagens">
-            <ul>
-                <li class="item-personagem">
-                    <img src="../frontend/imgs/character_profile_ex.JPG" alt="avatar image" id="personagem-avatar">
-                    <h2 class="personagem-nome" id="personagem-nome">John Smith</h2>
-                    <div class="personagem-description">
-                        <p id="personagem-classe">guerreiro</p>    
-                        <p id="perosnagem-raca">humano</p>    
-                    </div>
-                    <div class="personagem-level">
-                        <label for="level-num">level</label>
-                        <p class="level-num" id="level-num">5</p>
-                    </div>
-                </li>
-                <li class="item-personagem">
-                    <img src="../frontend/imgs/character_profile_ex.JPG" alt="avatar image" id="personagem-avatar">
-                    <h2 class="personagem-nome" id="personagem-nome">John Smith</h2>
-                    <div class="personagem-description">
-                        <p id="personagem-classe">guerreiro</p>    
-                        <p id="perosnagem-raca">humano</p>    
-                    </div>
-                    <div class="personagem-level">
-                        <label for="level-num">level</label>
-                        <p class="level-num" id="level-num">5</p>
-                    </div>
-                </li>
-                <li class="item-personagem">
-                    <img src="../frontend/imgs/character_profile_ex.JPG" alt="avatar image" id="personagem-avatar">
-                    <h2 class="personagem-nome" id="personagem-nome">John Smith</h2>
-                    <div class="personagem-description">
-                        <p id="personagem-classe">guerreiro</p>    
-                        <p id="perosnagem-raca">humano</p>    
-                    </div>
-                    <div class="personagem-level">
-                        <label for="level-num">level</label>
-                        <p class="level-num" id="level-num">5</p>
-                    </div>
-                </li>
+
+    <div id="content">
+
+        <div class="hero-bg">
+            <header>
+                <div class="slide">
+                    <a href="#" onclick="openSlideMenu()" id="menu-button">
+                        <img src="./imgs/main-menu.png" alt="menu icon" class="header-menu">
+                    </a>
+                </div>
+                <h1 class="main-logo"><img src="./imgs/main-logo.png" alt="logo"></h1>
+            </header>
+        </div>
+
+        <div id="menu" class="nav">
+            <a href="#" class="close" onclick="closeSlideMenu()" id="close">
+                X
+            </a>
+            <div class="menu-logo-div">
+                <img src="./imgs/menu-logo.png" alt="menu logo" class="menu-logo">
+            </div>
+            <p id="user-name" class="welcome-user">Olá,</p>
+            <p id="user-name" class="user-name">Nerdão do RPG</p>
+            <ul class="menu-list" id="menu-list">
+                <li><img src="./imgs/char-list.svg" alt=""><a href="#">lista de personagens</a></li>
+                <li><img src="./imgs/maps.svg" alt=""><a href="#">mapas</a></li>
+                <li><img src="./imgs/flag.svg" alt=""><a href="#">campanhas</a></li>
+                <li><img src="./imgs/settings.svg" alt=""><a href="#">configurações</a></li>
+                <li><img src="./imgs/share.svg" alt=""><a href="#">compartilhar</a></li>
+                <li><img src="./imgs/log-out.svg" alt=""><a href="#">sair</a></li>
             </ul>
         </div>
-    </main>
+
+        <main onclick="closeSlideMenu()">
+            <div class="characters-list">
+                <ul>
+                    <li class="character-item">
+                        <img src="./imgs/more-opitions-button.png" alt="character-menu" class="character-menu" id="character-menu" onclick="openOptionsMenu()">
+                        <div class="options">
+                            <ul id="options-list">
+                                <li><a href="#">Perfil</a></li>
+                                <li><a href="#">Editar</a></li>
+                                <li><a href="#">Deletar</a></li>
+                            </ul>
+                        </div>
+                        <img src="./imgs/character_profile_ex.png" alt="avatar image" class="character-avatar">
+                        <h2 class="character-name">John Smith</h2>
+                        <div class="character-description">
+                            <p id="character-class">guerreiro</p>    
+                            <p id="character-race">humano</p>    
+                        </div>
+                        <div class="character-level">
+                            <label for="level-num">level</label>
+                            <p class="level-num" id="level-num">5</p>
+                        </div>
+                    </li>    
+                </ul>
+            </div>
+        </main>
+
+        <div class="add-character">
+            <a href="#"><img src="./imgs/more-button.png" alt=""></a>
+        </div>
+
+    </div>
+    
 </body>
 </html>
