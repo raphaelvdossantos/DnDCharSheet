@@ -1,11 +1,11 @@
 # Character Sheet
 
 import random as dice
-import Items_List as list
+from backend_py import Items_List as list
 #import Mods_Checks as saving
-import Saving_Throws as test
+from backend_py import Saving_Throws as test
 
-class char_sheet:
+class Character_Sheet:
     # Definition of the Character's Attributes
 
     def attributes_roll():
