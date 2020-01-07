@@ -1,9 +1,11 @@
-from Character_Sheet import char_sheet as new_character
+import Character_Sheet as new_character
 
 
 char_name = input("Qual o nome do seu personagem? ")
-char_level = input("Qual o nível do seu personagem?")
-rolled_values = new_character.attributes_roll()
+
+
+rolled_values = new_character.char_sheet.attributes_roll()
+
 
 print("Os valores rolados para os atributos foram:", rolled_values)
 

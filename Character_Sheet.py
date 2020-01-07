@@ -2,17 +2,13 @@
 
 import random as dice
 import Items_List as list
-import Mods_Checks as saving
+#import Mods_Checks as saving
 import Saving_Throws as test
 
 class char_sheet:
     # Definition of the Character's Attributes
-    '''
-    def __init__(self, char_name, char_level):
-          char_name = ''
-          char_level = 0
-    '''
-    def attributes_roll(self):
+
+    def attributes_roll():
         attribute_roll = [0, 0, 0, 0]
         char_attribute = [0, 0, 0, 0, 0, 0]
 
@@ -22,8 +18,8 @@ class char_sheet:
                     attribute_roll[i] = dice.randint(1, 6)
                     attribute = sorted(attribute_roll)
                 char_attribute[a] = sum(attribute[1:4])
-
             return char_attribute
+
         except Exception as e:
             print(e)
             print("System Error")
@@ -101,3 +97,4 @@ class char_sheet:
     # Method to roll tasks and skills
     def roll_task(task, modificators):
         return None
+
