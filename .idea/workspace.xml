@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_py/Character_Creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend_py/Character_Creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_py/Character_Creation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_py/Character_Sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Character_Sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_py/Dice_Roller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dice_Roller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_py/Items_List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Items_List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_py/Mods_Checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mods_Checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_py/Saving_Throws.py" beforeDir="false" afterPath="$PROJECT_DIR$/Saving_Throws.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -58,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend_py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend_py/Character_Creation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Character_Creation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +145,11 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="278" y="61" width="800" height="670" key="#Notifications/0.32.1366.736@0.32.1366.736" timestamp="1577836826678" />
-    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578364879197">
+    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578366590303">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1575842173634" />
-    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1578364879197" />
+    <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1578366590303" />
     <state x="419" y="237" width="518" height="318" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577770475079">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -161,26 +167,26 @@
     </state>
     <state x="456" y="147" width="424" height="477" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1575840756001" />
     <state x="456" y="151" width="424" height="477" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1577835481142" />
-    <state width="1343" height="145" key="GridCell.Tab.0.bottom" timestamp="1578364810836">
+    <state width="1343" height="145" key="GridCell.Tab.0.bottom" timestamp="1578367338827">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1575843173563" />
-    <state width="1343" height="145" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1578364810836" />
-    <state width="1343" height="145" key="GridCell.Tab.0.center" timestamp="1578364810835">
+    <state width="1343" height="145" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1578367338827" />
+    <state width="1343" height="145" key="GridCell.Tab.0.center" timestamp="1578367338826">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1575843173561" />
-    <state width="1343" height="145" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1578364810835" />
-    <state width="1343" height="145" key="GridCell.Tab.0.left" timestamp="1578364810835">
+    <state width="1343" height="145" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1578367338826" />
+    <state width="1343" height="145" key="GridCell.Tab.0.left" timestamp="1578367338825">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1575843173559" />
-    <state width="1343" height="145" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1578364810835" />
-    <state width="1343" height="145" key="GridCell.Tab.0.right" timestamp="1578364810836">
+    <state width="1343" height="145" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1578367338825" />
+    <state width="1343" height="145" key="GridCell.Tab.0.right" timestamp="1578367338826">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="1343" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1575843173562" />
-    <state width="1343" height="145" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1578364810836" />
+    <state width="1343" height="145" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1578367338826" />
     <state x="127" y="87" width="1092" height="611" key="MergeDialog" timestamp="1577835970005">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
