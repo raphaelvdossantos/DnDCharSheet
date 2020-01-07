@@ -5,15 +5,14 @@ import Items_List as list
 import Mods_Checks as saving
 import Saving_Throws as test
 
-class Character_Sheet:
-# Definition of the Character's Attributes
-
+class char_sheet:
+    # Definition of the Character's Attributes
+    '''
     def __init__(self, char_name, char_level):
-        char_name = ''
-        char_level = 0
-        return None
-
-    def attributes_roll():
+          char_name = ''
+          char_level = 0
+    '''
+    def attributes_roll(self):
         attribute_roll = [0, 0, 0, 0]
         char_attribute = [0, 0, 0, 0, 0, 0]
 
