@@ -3,6 +3,7 @@ import Character_Creation
 
 
 attribute = list(Character_Creation.char_attributes.values())
+level = Character_Creation.char_level
 
 mod_value = 0
 attribute_mod = [0, 0, 0, 0, 0, 0]
@@ -39,8 +40,12 @@ Life_Points = {"Total": 0 + attribute_mod[2], "Talentos": 0, "Mod Atributo": att
 Armor_Class = {"Total": Base_Armor + attribute_mod[2], "Bonus de Armadura": 0, "Mod Atributo": attribute_mod[1], "Mod Tamanho": 0}
 Surprise_Armor = Armor_Class["Total"] - attribute_mod[2]
 
-Fortitude_Save = {"Total": 0 + attribute_mod[2], "Mod Base": 0, "Mod Atributo": attribute_mod[2]}
-Reflex_Save = {"Total": 0 + attribute_mod[1], "Mod Base": 0, "Mod Atributo": attribute_mod[1]}
-Will_Save = {"Total": 0 + attribute_mod[4], "Mod Base": 0, "Mod Atributo": attribute_mod[4]}
+base_fortitude = []
+base_reflex = []
+base_will = []
+
+Fortitude_Save = {"Total": base_fortitude[level] + attribute_mod[2], "Mod Base": 0, "Mod Atributo": attribute_mod[2]}
+Reflex_Save = {"Total": base_reflex[level] + attribute_mod[1], "Mod Base": 0, "Mod Atributo": attribute_mod[1]}
+Will_Save = {"Total": base_will[level] + attribute_mod[4], "Mod Base": 0, "Mod Atributo": attribute_mod[4]}
 
 

@@ -1,8 +1,9 @@
 # Character Sheet
 
 import random as dice
-import backend_py.Items_List as list
-import backend_py.Saving_Throws as saving
+from backend_py import Items_List as list
+from backend_py import Mods_Checks as saving
+from backend_py import Saving_Throws as test
 
 class Character_Sheet:
 # Definition of the Character's Attributes
@@ -75,22 +76,21 @@ class Character_Sheet:
     def char_class(self):
 
         if self.lower() == "barbaro":
-            Fortitude = saving.Proficiency
-            Reflex = saving.Nonroficiency
-            Will = saving.Nonroficiency
-            Savings = [Fortitude, Reflex, Will]
+            saving.base_fortitude = test.Proficiency
+            saving.base_reflex = test.Nonproficiency
+            saving.base_will = test.Nonproficiency
+            Savings = [saving.Fortitude_Save["Total"], saving.Reflex_Save["Total"], saving.Will_Save["Total"]]
             weapons_list =[0, 0]
             for a, weapon in enumerate(weapons_list):
                 weapons_list[a] = list.fighter_basic_weapons[dice.randint(1, len(list.fighter_basic_weapons)-1)]["Name"]
             return weapons_list, Savings
 
         elif self.lower() == "guerreiro":
-
-            Fortitude = saving.Proficiency
-            Reflex = saving.Nonroficiency
-            Will = saving.Nonroficiency
-            Savings = [Fortitude, Reflex, Will]
-            weapons_list =[0]
+            saving.base_fortitude = test.Proficiency
+            saving.base_reflex = test.Nonproficiency
+            saving.base_will = test.Nonproficiency
+            Savings = [saving.Fortitude_Save["Total"], saving.Reflex_Save["Total"], saving.Will_Save["Total"]]
+            weapons_list = [0]
             for a, weapon in enumerate(weapons_list):
                 weapons_list[a] = list.fighter_basic_weapons[dice.randint(1, len(list.fighter_basic_weapons)-1)]["Name"]
             return weapons_list, Savings

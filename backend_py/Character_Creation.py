@@ -1,9 +1,10 @@
-import backend_py.Character_Sheet as new_character
+import Character_Sheet as new_character
 
 
 char_name = input("Qual o nome do seu personagem? ")
+char_level = input("Qual o nível do seu personagem?")
 
-rolled_values = new_character.Character_Sheet.attributes_roll()
+rolled_values = new_character.attrib
 
 print("Os valores rolados para os atributos foram:", rolled_values)
 
@@ -34,4 +35,4 @@ chosen_class = str(classes_dict[choose_class])
 
 print(char_name, "  ", chosen_race, "  ", chosen_class, "\n", char_attributes)
 
-print(new_character.Character_Sheet.char_class(chosen_class))
+print(new_character.Character_Sheet.char_class(chosen_class), " ", new_character.Character_Sheet.Savings)
