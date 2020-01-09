@@ -11,11 +11,13 @@ def dice_rolling(dice_quantity=1, sided_dice=6):
         roll_result.append(dice.randint(1, sided_dice))
         sorted_result = sorted(roll_result)
 
-    return sorted_result
+    roll_sum = sum(sorted_result)
+    return roll_sum
 
+'''
 def character_attack(character, talent):
     attack = character.mod[] + talent + dice.radint(1,20)
     return  attack
-
+'''
 
 

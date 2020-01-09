@@ -2,8 +2,9 @@
 
 import random as dice
 from backend_py import Items_List as list
-#import Mods_Checks as saving
-from backend_py import Saving_Throws as test
+from backend_py import Mods_Checks as saving
+
+
 
 class Character_Sheet:
     # Definition of the Character's Attributes
@@ -72,27 +73,25 @@ class Character_Sheet:
             print("Algo deu errado, procure por ", e)
 
     # Definition of Items and Skills accordingly to the chosen class
-    def char_class(self):
+    def char_class(self, attribute_mod, char_level):
 
         if self.lower() == "barbaro":
-            saving.base_fortitude = test.Proficiency
-            saving.base_reflex = test.Nonproficiency
-            saving.base_will = test.Nonproficiency
-            Savings = [saving.Fortitude_Save["Total"], saving.Reflex_Save["Total"], saving.Will_Save["Total"]]
+            style = "primary fighter"
+            life_dice = 12
+            status = saving.base_status(attribute_mod, char_level, style, life_dice)
             weapons_list =[0, 0]
             for a, weapon in enumerate(weapons_list):
                 weapons_list[a] = list.fighter_basic_weapons[dice.randint(1, len(list.fighter_basic_weapons)-1)]["Name"]
-            return weapons_list, Savings
+            return weapons_list, status
 
         elif self.lower() == "guerreiro":
-            saving.base_fortitude = test.Proficiency
-            saving.base_reflex = test.Nonproficiency
-            saving.base_will = test.Nonproficiency
-            Savings = [saving.Fortitude_Save["Total"], saving.Reflex_Save["Total"], saving.Will_Save["Total"]]
+            style = "primary fighter"
+            life_dice = 10
+            status = saving.base_status(attribute_mod, char_level, style, life_dice)
             weapons_list = [0]
             for a, weapon in enumerate(weapons_list):
                 weapons_list[a] = list.fighter_basic_weapons[dice.randint(1, len(list.fighter_basic_weapons)-1)]["Name"]
-            return weapons_list, Savings
+            return weapons_list, status
 
     # Method to roll tasks and skills
     def roll_task(task, modificators):
