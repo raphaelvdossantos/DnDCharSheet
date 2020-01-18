@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#content {
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    background: #BFBFBF;
+    min-height: 100%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.hero-bg {
+    border-bottom: 4px solid #1F1F23;
+    max-height: 93px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+header {
+   width: 100%;
+   margin: 0 4em;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: space-around;
+   align-items: center;
+   
+}
+
+.header-menu {
+    max-width: 3.5em;
+    height: auto;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+.header-menu:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background:#6E98E1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: all 0.7s ease;
+    box-shadow: 3px 0 15px black;
+}
+
+.menu-open {
+    width: 25em;
+}
+
+.close {
+    position: absolute;
+    top: 25.5px;
+    right: 22px;
+    margin-left: 50px;
+    font-size: 39px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-logo-div {
+    width: 25em;
+    text-align: center;
+}
+
+.menu-logo {
+    position: relative;
+    margin: 0 auto;
+}
+
+.welcome-user {
+    width: 25rem;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.user-name {
+    width: 25rem;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    padding: 0 0 16px 0;
+}
+
+.menu-list {
+    transition: all 1s ease-out;
+}
+
+.menu-list li {
+    width: 400px;
+    display: flex;
+}
+
+.menu-list li img {
+    padding-left: 27px;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 18px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.menu-list li a:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+.characters-list {
+    width: 80vw;
+    margin: 55px auto;
+}
+
+.characters-list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.character-item {
+    background: #1F1F23;
+    text-align: center;
+    padding: 13px 25px;
+    color: #BFBFBF;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: 200ms;
+    width: 80%;
+}
+
+.character-item:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.options-list {
+    height: 0;
+    overflow-y: hidden;
+    transition: all 0.7s ease;
+    font-size: 0.8em;
+}
+
+.options-open {
+    height: 1.5em;
+}
+
+.options li:hover {
+    opacity: 0.5;
+}
+
+.options li a {
+    text-decoration: none;
+    color: #BFBFBF;
+}
+
+.character-menu {
+    display: block;
+    position: relative;
+    max-width: 23px;
+    height: auto;
+    margin: 15px 13px 10px auto;
+    transition: 200ms;
+}
+
+.character-menu:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.character-avatar {
+    margin: 20px 0 10px 0;
+}
+
+.character-name {
+    padding:  1em 0;
+    font-size: 2em;
+}
+
+.character-description {
+    display: flex;
+    padding: 1em 0;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.character-description p {
+    margin: 0 0.5em;
+}
+
+.character-level {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.character-level p {
+    margin: 0 6px;
+}
+
+.add-character {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    max-width: 73px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.add-character img {
+    max-width: 73px;
+    height: auto;
+    transition: 200ms;
+}
+
+.add-character img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilização da área de login */
+
+.main-logo-div {
+    text-align: center;
+    position: relative;
+    margin: 2em auto;
+}
+
+@media screen and (max-width: 980px) {
+    .hero-bg, .characters-list {
+        width: screen;
+    }
+
+    .hero-bg {
+        border-width: 1px;
+    }
+
+    header {
+        max-width: 100vw;
+        margin: 0;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        grid-template-columns: 0.25fr 0.50fr 0.25fr
+    }
+
+    .slide {
+        text-align: center;
+        width: 3em;
+    }
+
+    .header-menu {
+        max-width: 2em;
+        height: auto;
+    }
+
+    .main-logo img {
+        max-height: 2em;
+        width: auto;
+        justify-self: center;
+    }
+
+    .menu-open, .menu-logo-div, .welcome-user, .user-name {
+        width: 100vw;
+    }
+
+    .characters-list ul {
+        margin: 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .character-item {
+        width: auto;
+        margin-bottom: 3em;
+    }
+
+    .options-open {
+        height: 5em;
+    }
+
+    .options-list {
+        font-size: 1em;
+    }
+
+    .options-list li {
+        margin: 0.5em 0
+    }
+}
+
