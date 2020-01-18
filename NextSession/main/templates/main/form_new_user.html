@@ -22,34 +22,40 @@
         </header>
 
         <main>
-            <form action="form_new_char.html" class="basic-info basic-info-login">
+            <form action="" class="basic-info basic-info-login" method='POST'>
+                {% csrf_token %}
                 <div id="user-name-div">
-                    <label for="" class="basic-info-label">
+                    <label for="username" class="basic-info-label">
                         Nome de Usuário
                     </label>
-                    <input type="text" id="name-char" name="name-char" class="basic-info-input" required>                    
+                    <input type="text" id="username" name="username" class="basic-info-input" required>
                 </div>
                 <div id="user-email-div">
-                    <label for="" class="basic-info-label">
+                    <label for="email" class="basic-info-label">
                         Email
                     </label>
-                    <input type="email" id="race-char" name="race-char" class="basic-info-input" required>                    
+                    <input type="email" id="email" name="email" class="basic-info-input" required>
                 </div>
                 <div id="user-pass-div">
-                    <label for="" class="basic-info-label">
+                    <label for="password1" class="basic-info-label">
                         Senha
                     </label>
-                    <input type="password" id="class-char" name="class-char" class="basic-info-input" required>                    
+                    <input type="password" id="password1" name="password1" class="basic-info-input" required>
                 </div>
-            
+                <div id="user-pass-div">
+                    <label for="password2" class="basic-info-label">
+                        Repita a Senha
+                    </label>
+                    <input type="password" id="password2" name="password2" class="basic-info-input" required>
+                </div>
                 <div class="submit-button-div">
-                    <input type="submit" value="Criar novo usuário!" class="submit-button">
+                    <button type="submit" style="color white" class="submit-button">Criar novo usuário!</button>
                 </div>
 
                 <div class="span-div">
                     <span>
                         Já tem uma conta cadastrada?
-                        <a href="form_login.html" class="span-div-link span-div-link-bold">Clique Aqui</a>
+                        <a href="/form_login.html" class="span-div-link span-div-link-bold">Clique Aqui</a>
                         para acessa-la então!
                     </span>
                 </div>

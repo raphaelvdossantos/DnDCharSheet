@@ -23,18 +23,19 @@
         </header>
 
         <main>
-            <form action="index.html" class="basic-info basic-info-login">
+            <form action="" class="basic-info basic-info-login" method ='POST'>
+                {% csrf_token %}
                 <div id="user-name-div">
-                    <label for="" class="basic-info-label">
+                    <label for="username" class="basic-info-label">
                         Login
                     </label>
-                    <input type="text" id="name-char" name="name-char" class="basic-info-input" required>                    
+                    <input type="text" id="username" name="username" class="basic-info-input" required>
                 </div>
                 <div id="password-div">
-                    <label for="" class="basic-info-label">
+                    <label for="password" class="basic-info-label">
                         Senha
                     </label>
-                    <input type="password" id="name-char" name="name-char" class="basic-info-input" required>                    
+                    <input type="password" id="password" name="password" class="basic-info-input" required>
                 </div>
 
                 <div class="span-div">
@@ -42,13 +43,13 @@
                 </div>
                 
                 <div class="submit-button-div submit-button-div-login">
-                    <input type="submit" value="Continuar" class="submit-button">
+                    <button type="submit" style="color white" class="submit-button">Continuar</button>
                 </div>
 
                 <div class="span-div">
                     <span>
                         Ainda não tem uma conta?
-                        <a href="form_new_user.html" class="span-div-link span-div-link-bold">Clique Aqui</a>
+                        <a href="/form_new_user.html" class="span-div-link span-div-link-bold">Clique Aqui</a>
                         para criar uma agora!
                     </span>
                 </div>

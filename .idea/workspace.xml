@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/imgs/more-opitions-button.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/includes/sidenav.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/includes/sidenav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
