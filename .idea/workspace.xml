@@ -2,236 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/home/woodendoor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/Icon awesome-dice-d20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/Icon awesome-dice-d20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/Icon feather-log-out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/Icon feather-log-out@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/arrow_back-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/delete-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/edit-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/expand_less-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/expand_more-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/map-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/menu-24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/menu-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/menu-24px@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/more_horiz-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/outlined_flag-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/people-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/person-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/photo_camera-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/settings_applications-24px (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/icones/share-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/background-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/char-list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/character_profile_ex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/flag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/log-out.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/main-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/main-menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/maps.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/menu-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/more-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/more-opitions-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/settings.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/imgs/share.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/index/styles/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/home/woodendoor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/Icon awesome-dice-d20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/Icon awesome-dice-d20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/Icon feather-log-out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/Icon feather-log-out@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/arrow_back-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/delete-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/edit-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/expand_less-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/expand_more-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/map-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/menu-24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/menu-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/menu-24px@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/more_horiz-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/outlined_flag-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/people-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/person-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/photo_camera-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/settings_applications-24px (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/icones/share-24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/background-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/char-list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/character_profile_ex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/flag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/log-out.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/main-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/main-menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/maps.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/menu-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/more-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/more-opitions-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/settings.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/imgs/share.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/static/index/styles/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/form_login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/form_new_char.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/form_new_char_bio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/form_new_user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/back_button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/char-list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/character_profile_ex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/flag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/log-out.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/main-logo-login.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/main-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/main-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/main-menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/maps.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/menu-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/more-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/more-opitions-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/settings.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/imgs/share.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/mainButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/styles/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/styles/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/static/imgs/more-opitions-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/includes/sidenav.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/includes/sidenav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,6 +154,10 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="278" y="61" width="800" height="670" key="#Notifications/0.32.1366.736@0.32.1366.736" timestamp="1577836826678" />
+    <state x="278" y="61" width="800" height="670" key="#Web_Browsers" timestamp="1579316345484">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="61" width="800" height="670" key="#Web_Browsers/0.32.1366.736@0.32.1366.736" timestamp="1579316345484" />
     <state x="141" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578368592451">
       <screen x="0" y="32" width="1366" height="736" />
     </state>

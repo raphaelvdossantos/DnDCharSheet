@@ -37,7 +37,7 @@ def register(request):
 
     form = NewUserform
     return render(request,
-                  "main/register.html",
+                  "main/form_new_user.html",
                   context={"form": form})
 
 
@@ -65,5 +65,5 @@ def login_request(request):
             messages.error(request, "Invalid User/Password")
 
     return render(request,
-                  "main/login.html",
+                  "main/form_login.html",
                   {"form": form})
