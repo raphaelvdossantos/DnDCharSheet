@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98dccaa5-2d9c-4379-98a9-80571d2cdec0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vxn6GnEfIxVdUGiMMugmZF3ZBq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Draft" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/index" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/main/index" />
+      <recent name="$PROJECT_DIR$/static/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NextSession/static" />
+      <recent name="$PROJECT_DIR$/index" />
+      <recent name="$PROJECT_DIR$/main/templates/main" />
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/main/templates" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98dccaa5-2d9c-4379-98a9-80571d2cdec0" name="Default Changelist" comment="" />
+      <created>1578203436955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578203436955</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="61" width="800" height="670" key="#Web_Browsers" timestamp="1578765941640">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="61" width="800" height="670" key="#Web_Browsers/0.32.1366.736@0.32.1366.736" timestamp="1578765941640" />
+    <state x="466" y="158" width="424" height="477" key="FileChooserDialogImpl" timestamp="1579308060954">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="466" y="158" width="424" height="477" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1579308060954" />
+  </component>
+</project>

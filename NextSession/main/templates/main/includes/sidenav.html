@@ -1,0 +1,19 @@
+<div id="menu" class="nav">
+    {% load static %}
+    <a href="#" class="close" onclick="closeSlideMenu()" id="close">
+        X
+    </a>
+    <div class="menu-logo-div">
+        <img src="{% static 'index/imgs/menu-logo.png' %}" alt="menu logo" class="menu-logo">
+    </div>
+    <p id="user-name" class="welcome-user">Olá,</p>
+    <p id="user-name" class="user-name"><strong>{{user.username}}</strong></p>
+    <ul class="menu-list" id="menu-list">
+        <li><img src="{% static 'index/imgs/char-list.svg' %}" alt=""><a href="#">lista de personagens</a></li>
+        <li><img src="{% static 'index/imgs/maps.svg' %}" alt=""><a href="#">mapas</a></li>
+        <li><img src="{% static 'index/imgs/flag.svg' %}" alt=""><a href="#">campanhas</a></li>
+        <li><img src="{% static 'index/imgs/settings.svg' %}" alt=""><a href="#">configurações</a></li>
+        <li><img src="{% static 'index/imgs/share.svg' %}" alt=""><a href="#">compartilhar</a></li>
+        <li><img src="{% static 'index/imgs/log-out.svg' %}" alt=""><a href="/logout">sair</a></li>
+    </ul>
+</div>
