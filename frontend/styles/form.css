@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+}
+
+body {
+    background-color: #1F1F23;
+    position: relative;
+    background-size: contain;
+    font-family: 'Montserrat', sans-serif;
+    color: #B7B7B7;
+    font-size: 19px;
+}
+
+header {
+    width: device-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+
+.back-button-div {
+    text-align: left;
+    justify-self: start;
+}
+
+.button-back img {
+    max-width: 1.5em;
+    height: auto;
+}
+
+.main-text {
+    text-align: center;
+    margin-top: 5vh;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.basic-info {
+    margin: 5vh auto;
+    position: relative;
+    width: 50vw;
+    text-align: center;
+}
+
+.basic-info-label {
+    display: block;
+    margin-top: 1.5em;
+}
+
+.basic-info-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #B7B7B7;
+    height: 1.5em;
+    text-align: center;
+    font-size: 1em;
+    background-color: inherit;
+    color: #d4d3d3;
+    font-family: inherit;
+    margin-top: 0.5em;
+}
+
+
+.basic-info-input:focus{
+    outline: none;
+    border-color: #4a89dc;;
+    transition: 500ms;
+    transform: scale(1.025);
+}
+
+.submit-button-div {
+    margin: 3em 0;
+}
+
+.submit-button {
+    width: 100%;
+    height: 2em;
+    background: #4a89dc;
+    color: #ffffff;
+    border: none;
+    font-size: 1em;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #3160B6;
+    padding: 0;
+    vertical-align: middle;
+    text-shadow: 1px 1px 0 rgba(39,110,204,0.5);
+    transition: background-color 200ms ease;
+}
+
+.submit-button:hover {
+    background-color: #376aad;
+    transition: 200ms;
+}
+
+/* Estilização página bio */
+
+.basic-info-bio {
+    width: 50vw;
+    vertical-align: top;
+    height: inherit;
+}
+
+.basic-info-text:focus {
+    transform: none;
+    height: 50vh;
+    border: 1px solid #4a89dc;
+    
+}
+
+/* Estilização da área de login */
+
+.main-logo-div {
+    text-align: center;
+    position: relative;
+    margin: 0.5em auto;
+}
+
+.basic-info-login {
+    margin-top: 10vh;
+    padding: 0.5em;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.25);
+}
+
+.span-div {
+    margin-top: 1.5em;
+}
+
+.span-div-link {
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+.span-div-link-bold {
+    font-weight: bold;
+    color: #4a89dc;
+}
+
+.span-div-link:hover {
+    color: #4a89dc;
+    transition: 200ms;
+}
+
+.submit-button-div-login {
+    margin-top: 8vh;
+}
+
+@media screen and (max-width: 980px) {
+
+    .main-logo-div img {
+        src: url('../imgs/main-logo.svg');
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .basic-info {
+        width: 80vw;
+    }
+}
