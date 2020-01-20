@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
 from .models import CharSheet
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 from .forms import NewUserform
+
 
 # Create your views here.
 
@@ -24,6 +24,7 @@ def index(request):
 def register(request):
     if request.method == "POST":
         form = NewUserform(request.POST)
+
         if form.is_valid():
             user = form.save()
             username = form.cleaned_data.get('username')
@@ -32,8 +33,12 @@ def register(request):
             messages.info(request, f"Logged in as: {username}")
             return redirect("main:index")
         else:
-            for msg in form.error_messages:
-                messages.error(request, f"{msg}:{form.error_messages[msg]}")
+            password1 = form.cleaned_data.get('password1')
+            password2 = form.cleaned_data.get('password2')
+            if len(password1) < 7:
+                messages.error(request, "Your password must have at least 8 characters")
+            if password1 != password2:
+                messages.error(request, "Your passwords must match")
 
     form = NewUserform
     return render(request,
