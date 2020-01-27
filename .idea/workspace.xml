@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/NextSession/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/NextSession/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

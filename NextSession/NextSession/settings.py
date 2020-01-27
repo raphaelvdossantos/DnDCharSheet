@@ -80,7 +80,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'RollingDices',
-
+        'USER': '',
+        'PASSWORD':'',
+        'HOST':''
     }
 }
 

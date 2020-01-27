@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import CharSheet
+from .models import CharDescription
 
 
 # Register your models here.
@@ -7,7 +7,10 @@ from .models import CharSheet
 class CharSheetAdmin(admin.ModelAdmin):
     fields = ["char_name",
               "char_shortbio",
-              "char_date"]
+              "char_level",
+              "char_race",
+              "char_class",
+              ]
 
 
-admin.site.register(CharSheet, CharSheetAdmin)
+admin.site.register(CharDescription, CharSheetAdmin)

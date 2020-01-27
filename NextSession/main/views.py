@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import CharSheet
+from .models import CharDescription
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
@@ -12,7 +12,7 @@ from .forms import NewUserform
 def homepage(request):
     return render(request=request,
                   template_name="main/home.html",
-                  context={"Characters": CharSheet.objects.all()})
+                  context={"Characters": CharDescription.objects.all()})
 
 
 def index(request):
