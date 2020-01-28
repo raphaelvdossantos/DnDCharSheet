@@ -20,6 +20,10 @@ def index(request):
                   "main/index.html",
                   )
 
+def char_profile(request):
+    return render(request,
+                  "main/char_profile.html",
+                  )
 
 def register(request):
     if request.method == "POST":
