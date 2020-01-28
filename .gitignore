@@ -5,3 +5,4 @@ __pycache__
 NextSession/.env
 NextSession/NextSession/settings.py
 NextSession/.idea
+NextSession/venv
