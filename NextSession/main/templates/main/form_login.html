@@ -15,7 +15,7 @@
     <div class="content">
         <header>
             <div class="main-logo-div">
-                <img src="{% static './imgs/main-logo-login.svg' %}" alt="" class="button-back">
+                <a href="/"><img src="{% static './imgs/main-logo-login.svg' %}" alt="" class="button-back"></a>
             </div>
             <p class="main-text">
                 Bem-vindo ao Rolling Dices!
@@ -23,7 +23,7 @@
         </header>
 
         <main>
-            <form action="" class="basic-info basic-info-login" method ='POST'>
+            <form action="" class="basic-info basic-info-login" method="POST">
                 {% csrf_token %}
                 <div id="user-name-div">
                     <label for="username" class="basic-info-label">
@@ -43,13 +43,13 @@
                 </div>
                 
                 <div class="submit-button-div submit-button-div-login">
-                    <button type="submit" style="color white" class="submit-button">Continuar</button>
+                    <button type="submit" class="submit-button">Continuar</button>
                 </div>
 
                 <div class="span-div">
                     <span>
                         Ainda não tem uma conta?
-                        <a href="/form_new_user.html" class="span-div-link span-div-link-bold">Clique Aqui</a>
+                        <a href="/register" class="span-div-link span-div-link-bold">Clique Aqui</a>
                         para criar uma agora!
                     </span>
                 </div>

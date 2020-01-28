@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil do Personagem</title>
+    <link rel="stylesheet" href="{% static './styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static './styles/profile.css' %}">
+    <link rel="shortcut icon" href="{% static './favicon.ico' %}" type="image/x-icon">
+</head>
+<body>
+    <aside>
+        <figure class="char-avatar">
+            <img src="{% static './imgs/character_profile_ex.png' %}" alt="Avatar">
+        </figure>
+        <div class="char-info">
+            <span class="char-name">Nome do Jogador</span>
+            <span class="char-class">Classe</span>
+            <span class="char-race">Raça</span>
+            <span class="char-alignment">Alinhamento</span>
+            <div class="char-stats">
+                <div class="char-stat">
+                    <span>Nivel:</span>
+                    <span class="char-level">5</span>
+                </div>
+                <div class="char-stat">
+                    <span>Pontos de Vida:</span>
+                    <span id="char-hp">5</span>
+                    <span>/</span>
+                    <span id="char-hp-full">10</span>
+                </div>
+                <div class="char-stat">
+                    <span>Classe de Armadura:</span>
+                    <span id="char-hp">5</span>
+                    <div class="ca-bonus">
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                        <span>Bonus de Armadura:</span>
+                        <span id="bonus-arm">Bonus de Armadura:</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </aside>
+    <main class="char-file"></main>
+</body>
+</html>

@@ -4,7 +4,6 @@
     {% load static %}
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <meta charset="UTF-8">
@@ -16,11 +15,10 @@
     <title>Rolling Dices - Criar Conta</title>
 </head>
 <body>
-    {% include "./includes/messages.html" %}
     <div class="content">
         <header>
             <div class="main-logo-div">
-                <img src="{% static './imgs/main-logo-login.svg' %}" alt="" class="button-back">
+                <a href="/"><img src="{% static './imgs/main-logo-login.svg' %}" alt="" class="button-back"></a>
             </div>
             <p class="main-text">
                 Criar uma conta é simples, rapido e fácil!
@@ -28,7 +26,7 @@
         </header>
 
         <main>
-            <form action="" class="basic-info basic-info-login" method='POST'>
+            <form action="" class="basic-info basic-info-login" method="POST">
                 {% csrf_token %}
                 <div id="user-name-div">
                     <label for="username" class="basic-info-label">
@@ -55,13 +53,13 @@
                     <input type="password" id="password2" name="password2" class="basic-info-input" required>
                 </div>
                 <div class="submit-button-div">
-                    <button type="submit" style="color white" class="submit-button">Criar novo usuário!</button>
+                    <button type="submit" class="submit-button">Criar novo usuário!</button>
                 </div>
 
                 <div class="span-div">
                     <span>
                         Já tem uma conta cadastrada?
-                        <a href="/form_login.html" class="span-div-link span-div-link-bold">Clique Aqui</a>
+                        <a href="/login" class="span-div-link span-div-link-bold">Clique Aqui</a>
                         para acessa-la então!
                     </span>
                 </div>
@@ -69,4 +67,5 @@
         </main>
     </div>
 </body>
+{% include "./includes/messages.html" %}
 </html>
