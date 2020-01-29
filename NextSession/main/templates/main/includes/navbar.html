@@ -1,15 +1,16 @@
+{% load static %}
 <nav>
-    <div class="nav-wrapper black">
-        <a href="/" class="c">B&W</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="/">Home</a></li>
-            {% if user.is_authenticated %}
-                <li><a href="/account">{{user.username}}</a></li>
-                <li><a href="/logout">Log out</a></li>
-            {% else %}
-                <li><a href="/register">Register</a></li>
-                <li><a href="/login">Login</a></li>
-            {% endif %}
+    <figure class="main-menu" id="main-menu">
+        <img src="{% static './imgs/main-menu.png' %}" alt="logo">
+    </figure>
+    <div class="nav-bar" id="nav-bar">
+        <figure class="main-logo">
+            <a href="/"><img src="{% static './imgs/main-logo.png' %}" alt="logo"></a>
+        </figure>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/">Home</a></li class="nav-item">
+                <li class="nav-item"><a href="/register">Registrar</a></li>
+                <li class="nav-item"><a href="/login">Login</a></li>
         </ul>
     </div>
 </nav>

@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'NextSession.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'RollingDices',
-        'USER': '',
-        'PASSWORD':'',
-        'HOST':''
+        'NAME': 'dices',
+        'USER': 'joao_1',
+        'PASSWORD':'asejnbas',
+        'HOST':'mongodb+srv://joao_1:asejnbas@rest-8fx60.mongodb.net/dices?retryWrites=true&w=majority'
     }
 }
 
