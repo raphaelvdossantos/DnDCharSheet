@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/NextSession/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/NextSession/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0002_auto_20200111_1556.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0003_auto_20200111_1558.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0004_auto_20200111_1738.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0005_auto_20200111_1820.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0006_auto_20200111_1820.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0007_auto_20200111_2017.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0008_auto_20200111_2115.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0009_auto_20200111_2115.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0010_auto_20200112_1824.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/migrations/0011_auto_20200128_2020.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
