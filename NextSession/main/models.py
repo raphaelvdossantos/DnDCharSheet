@@ -1,7 +1,6 @@
 from django.db import models
 
 
-
 # Create your models here.
 class CharDescription(models.Model):
     char_name = models.CharField(max_length=100)
@@ -18,27 +17,31 @@ class CharDescription(models.Model):
 
 
 class BaseStatus(models.Model):
-    c_str = models.IntegerField()
-    c_dex = models.IntegerField()
-    c_con = models.IntegerField()
-    c_int = models.IntegerField()
-    c_wis = models.IntegerField()
-    c_cha = models.IntegerField()
+    char_str = models.IntegerField()
+    char_dex = models.IntegerField()
+    char_con = models.IntegerField()
+    char_int = models.IntegerField()
+    char_wis = models.IntegerField()
+    char_cha = models.IntegerField()
 
 
 class CombatStatus(models.Model):
     Life_Points = models.IntegerField()
-    weapon_one = models.CharField(max_length= 15, blank=True, null=True)
-    weapon_two = models.CharField(max_length= 15, blank=True, null=True)
-    weapon_three = models.CharField(max_length= 15, blank=True, null=True)
-    weapon_four = models.CharField(max_length= 15, blank=True, null=True)
+    weapon_one = models.CharField(max_length=15, blank=True, null=True)
+    weapon_two = models.CharField(max_length=15, blank=True, null=True)
+    weapon_three = models.CharField(max_lengt=15, blank=True, null=True)
+    weapon_four = models.CharField(max_length=15, blank=True, null=True)
 
-    shield = models.CharField(max_length= 15, blank=True, null=True)
-    armor = models.CharField(max_length= 15, blank=True, null=True)
-    protection_one = models.CharField(max_length= 15, blank=True, null=True)
-    protection_two = models.CharField(max_length= 15, blank=True, null=True)
+    shield = models.CharField(max_length=15, blank=True, null=True)
+    armor = models.CharField(max_length=15, blank=True, null=True)
+    protection_one = models.CharField(max_length=15, blank=True, null=True)
+    protection_two = models.CharField(max_length=15, blank=True, null=True)
 
 
+class CharSkills(models.Model):
+    skill_name = models.CharField(max_length=15)
+    skill_mod = models.CharField(max_length=3)
+    skill_graduation = models.IntegerField()
 
 
 
