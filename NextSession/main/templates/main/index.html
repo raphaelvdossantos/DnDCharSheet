@@ -2,6 +2,10 @@
 <html lang="pt-br">
 <head>
     {% load static %}
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -30,72 +34,34 @@
         <main>
             <div class="characters-list">
                 <ul>
-                    <li class="character-item">
-                        <img src="{% static './imgs/more-options-button.png' %}" alt="character-menu" class="character-menu" id="character-menu">
-                        <div class="options">
-                            <ul id="options-list" class="options-list">
-                                <li><a href="/profile">Perfil</a></li>
-                                <li><a href="#">Editar</a></li>
-                                <li><a href="#">Deletar</a></li>
-                            </ul>
-                        </div>
-                        <img src="{% static './imgs/character_profile_ex.png' %}" alt="avatar image" class="character-avatar">
-                        <h2 class="character-name">John Smith</h2>
-                        <div class="character-description">
-                            <p id="character-class">guerreiro</p>
-                            <p id="character-race">humano</p>
-                        </div>
-                        <div class="character-level">
-                            <label for="level-num">level</label>
-                            <p class="level-num" id="level-num">5</p>
-                        </div>
-                    </li>
-                    <li class="character-item">
-                        <img src="{% static './imgs/more-options-button.png' %}" alt="character-menu" class="character-menu" id="character-menu">
-                        <div class="options">
-                            <ul  id="options-list" class="options-list">
-                                <li><a href="#">Perfil</a></li>
-                                <li><a href="#">Editar</a></li>
-                                <li><a href="#">Deletar</a></li>
-                            </ul>
-                        </div>
-                        <img src="{% static './imgs/character_profile_ex.png' %}" alt="avatar image" class="character-avatar">
-                        <h2 class="character-name">John Smith</h2>
-                        <div class="character-description">
-                            <p id="character-class">guerreiro</p>
-                            <p id="character-race">humano</p>
-                        </div>
-                        <div class="character-level">
-                            <label for="level-num">level</label>
-                            <p class="level-num" id="level-num">5</p>
-                        </div>
-                    </li>
-                    <li class="character-item">
-                        <img src="{% static './imgs/more-options-button.png' %}" alt="character-menu" class="character-menu" id="character-menu">
-                        <div class="options">
-                            <ul  id="options-list" class="options-list">
-                                <li><a href="#">Perfil</a></li>
-                                <li><a href="#">Editar</a></li>
-                                <li><a href="#">Deletar</a></li>
-                            </ul>
-                        </div>
-                        <img src="{% static './imgs/character_profile_ex.png' %}" alt="avatar image" class="character-avatar">
-                        <h2 class="character-name">John Smith</h2>
-                        <div class="character-description">
-                            <p id="character-class">guerreiro</p>
-                            <p id="character-race">humano</p>
-                        </div>
-                        <div class="character-level">
-                            <label for="level-num">level</label>
-                            <p class="level-num" id="level-num">5</p>
-                        </div>
-                    </li>
+                    {% for char in all_user_characters %}
+                        <li class="character-item">
+                            <img src="{% static './imgs/more-options-button.png' %}" alt="character-menu" class="character-menu" id="character-menu">
+                            <div class="options">
+                                <ul id="options-list" class="options-list">
+                                    <li><a href="/profile">Perfil</a></li>
+                                    <li><a href="#">Editar</a></li>
+                                    <li><a href="#">Deletar</a></li>
+                                </ul>
+                            </div>
+                            <img src="{% static './imgs/character_profile_ex.png' %}" alt="avatar image" class="character-avatar">
+                            <h2 class="character-name">{{char.char_name}}</h2>
+                            <div class="character-description">
+                                <p id="character-class">{{char.char_class}}</p>
+                                <p id="character-race">{{char.char_race}}</p>
+                            </div>
+                            <div class="character-level">
+                                <label for="level-num">{{char.char_level}}</label>
+                                <p class="level-num" id="level-num">5</p>
+                            </div>
+                        </li>
+                    {% endfor %}
                 </ul>
             </div>
         </main>
 
         <div class="add-character">
-            <a href="form_new_char.html"><img src="{% static './imgs/more-button.png' %}" alt=""></a>
+            <a href="/newchar"><img src="{% static './imgs/more-button.png' %}" alt=""></a>
         </div>
 
     </div>
@@ -103,4 +69,5 @@
     <script src="{% static './js/mainButtons.js' %}"></script>
     
 </body>
+{% include "./includes/messages.html" %}
 </html>

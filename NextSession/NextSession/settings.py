@@ -70,6 +70,8 @@ TEMPLATES = [
     },
 ]
 
+LOGIN_URL = 'main:login'
+
 WSGI_APPLICATION = 'NextSession.wsgi.application'
 
 

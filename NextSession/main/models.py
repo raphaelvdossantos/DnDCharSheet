@@ -1,19 +1,18 @@
 from django.db import models
+from django.contrib.auth import get_user_model
 
 
 # Create your models here.
-class CharDescription(models.Model):
-    char_name = models.CharField(max_length=100)
-    char_level = models.IntegerField()
-    char_exp = models.IntegerField()
+class CharacterMain(models.Model):
+    user_character = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    char_name = models.CharField(max_length=30)
+    char_level = models.IntegerField(default=1)
+    char_exp = models.IntegerField(default=0)
     char_race = models.CharField(max_length=20)
     char_class = models.CharField(max_length=30)
     char_alignement = models.CharField(max_length=2)
-    char_size = models.CharField(max_length=1)
-    char_shortbio = models.TextField()
-
-    def __str__(self):
-        return self.char_name
+    char_size = models.CharField(max_length=1, default="M")
+    char_shortbio = models.TextField(blank=True, null=True)
 
 
 class BaseStatus(models.Model):
@@ -29,7 +28,7 @@ class CombatStatus(models.Model):
     Life_Points = models.IntegerField()
     weapon_one = models.CharField(max_length=15, blank=True, null=True)
     weapon_two = models.CharField(max_length=15, blank=True, null=True)
-    weapon_three = models.CharField(max_lengt=15, blank=True, null=True)
+    weapon_three = models.CharField(max_length=15, blank=True, null=True)
     weapon_four = models.CharField(max_length=15, blank=True, null=True)
 
     shield = models.CharField(max_length=15, blank=True, null=True)

@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/NextSession/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/NextSession/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char_bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char_bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +147,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="368" y="27" width="619" height="734" key="#Beggining/0.27.1366.741@0.27.1366.741" timestamp="1575840575016" />
+    <state x="278" y="61" width="800" height="670" key="#Inspections" timestamp="1580690102780">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="61" width="800" height="670" key="#Inspections/0.32.1366.736@0.32.1366.736" timestamp="1580690102780" />
     <state x="278" y="46" width="800" height="722" key="#Intentions" timestamp="1578080469698">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -226,10 +239,10 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.32.1366.736@0.32.1366.736" timestamp="1577124140766" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580435094599">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580615991863">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1580435094599" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1580615991863" />
     <state x="408" y="314" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579312585316">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
