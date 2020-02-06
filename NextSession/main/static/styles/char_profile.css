@@ -73,13 +73,14 @@ main {
         "armor items"
     ;
     column-gap: 2em;
+    row-gap: 0;
 }
 
 .att-table {
     grid-area: table;
     font-size: 1.5em;
-    color: #1F1F23;
-    border: 3px solid #1F1F23;
+    color: white;
+    background: #1F1F23;
     padding: 1rem 0;
     text-align: center;
     border-radius: 10px;
@@ -94,6 +95,10 @@ main {
 
 .att-table td, .att-table th {
     padding: 0 1rem;
+}
+
+.att-table th {
+    padding-bottom: 1rem;
 }
 
 .info-stats {
@@ -149,4 +154,46 @@ main {
 
 .open-section {
     height: fit-content;
+}
+
+@media (max-width: 950px) {
+    main {
+        grid-template-areas: 
+        "table stats"
+        "weapons weapons"
+        "armor armor"
+        "items items"
+    ;
+    }
+}
+
+@media (max-width: 500px) {
+
+    body {
+        flex-direction: column;
+        width: 100%;
+    }
+    aside {
+        width: 100vw;
+        padding: 2em;
+    }
+    main {
+        width: 100vw;
+        grid-template-areas: 
+        "table"
+        "stats"
+        "weapons"
+        "armor"
+        "items"
+        ;
+        column-gap: 0;
+        row-gap: 1em;
+    }
+    .att-table {
+        font-size: 1em;
+
+    }
+    .info-stats {
+        font-size: 1em;
+    }
 }
