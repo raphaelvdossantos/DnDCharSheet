@@ -69,6 +69,7 @@ main {
     display: grid;
     grid-template-areas: 
         "table stats"
+        "res res"
         "weapons weapons"
         "armor items"
     ;
@@ -110,8 +111,18 @@ main {
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    color: white;
+    color: #1F1F23;
+}
+
+.stats-value {
     background-color: #1F1F23;
+    color: #B7B7B7;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.res-info {
+    grid-area: "res"
 }
 
 .weapons-info {
