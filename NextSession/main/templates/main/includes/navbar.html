@@ -1,16 +1,10 @@
 {% load static %}
 <nav>
-    <figure class="main-menu" id="main-menu">
-        <img src="{% static './imgs/main-menu.png' %}" alt="logo">
-    </figure>
-    <div class="nav-bar" id="nav-bar">
-        <figure class="main-logo">
-            <a href="/"><img src="{% static './imgs/main-logo.png' %}" alt="logo"></a>
-        </figure>
-        <ul class="nav-list">
-            <li class="nav-item"><a href="/">Home</a></li class="nav-item">
-                <li class="nav-item"><a href="/register">Registrar</a></li>
-                <li class="nav-item"><a href="/login">Login</a></li>
-        </ul>
-    </div>
+    <img class="main-logo" src="{% static './imgs/main-logo.png' %}" alt="logo">
+    <ul class="nav-list">
+        <a href="/"><li class="nav-item">Home</li class="nav-item"></a>
+        <a href="/register"><li class="nav-item">Registrar</li></a>
+        <a href="/login"><li class="nav-item">Login</li></a>
+    </ul>
+    <img class="main-menu" src="{% static './imgs/menu.svg' %}" alt="logo">
 </nav>

@@ -1,60 +1,154 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Perfil do Personagem</title>
-    <link rel="stylesheet" href="{% static './styles/reset.css' %}">
-    <link rel="stylesheet" href="{% static './styles/profile.css' %}">
+    <title>Perfil da Personagem</title>
+    <link rel="stylesheet" href="{% static './styles/char_profile.css' %}">
     <link rel="shortcut icon" href="{% static './favicon.ico' %}" type="image/x-icon">
 </head>
 <body>
-    <aside>
+    <aside class="columns-scroll">
+        <figure class="back-btn">
+            <a href="/index/"><img src="{% static './imgs/back_button.svg' %}" alt="Avatar"></a>
+        </figure>
         <figure class="char-avatar">
             <img src="{% static './imgs/character_profile_ex.png' %}" alt="Avatar">
         </figure>
         <div class="char-info">
-            <span class="char-name">Nome do Jogador</span>
-            <span class="char-class">Classe</span>
-            <span class="char-race">Raça</span>
-            <span class="char-alignment">Alinhamento</span>
+            <span class="char-name">Nome da Personagem</span>
+            <div class="class-race">
+                <span class="char-class">Classe</span>
+                <span class="char-race">Raça</span>
+            </div>
             <div class="char-stats">
                 <div class="char-stat">
                     <span>Nivel:</span>
                     <span class="char-level">5</span>
                 </div>
                 <div class="char-stat">
-                    <span>Pontos de Vida:</span>
-                    <span id="char-hp">5</span>
-                    <span>/</span>
-                    <span id="char-hp-full">10</span>
+                    <span>XP:</span>
+                    <span class="char-level">20</span>
                 </div>
-                <div class="char-stat">
-                    <span>Classe de Armadura:</span>
-                    <span id="char-hp">5</span>
-                    <div class="ca-bonus">
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                        <span>Bonus de Armadura:</span>
-                        <span id="bonus-arm">Bonus de Armadura:</span>
-                    </div>
-                </div>
+            </div>
+            <div class="char-gold">
+                <span class="gold-pc">20 PC</span>
+                <span class="gold-pp">20 PP</span>
+                <span class="gold-po">20 PO</span>
+                <span class="gold-pl">20 PL</span>
+            </div>
+            <div class="short-bio">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ad beatae nesciunt commodi quod dignissimos! Quae, illum in aliquid aperiam placeat iure! Et sapiente, iure quia nostrum ea nisi eos saepe consequuntur beatae veniam, ipsam enim debitis repellat officia sed quas reprehenderit ipsa est deserunt voluptatem nulla delectus. Error, modi.</p>
             </div>
             
         </div>
     </aside>
-    <main class="char-file"></main>
+    <main class="columns-scroll char-file">
+        <table class="att-table">
+            <thead>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>MOD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Força</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Destreza</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Constituição</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Inteligência</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Sabedoria</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Carisma</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="info-stats">
+            <div class="health-points">
+                <span>PV:</span>
+                <span class="stats-value">20 pts</span>
+            </div>
+            <div class="CA-points">
+                <span>CA:</span>
+                <span class="stats-value">20 pts</span>
+            </div>
+            <div class="SUP-points">
+                <span>Surpresa:</span>
+                <span class="stats-value">20 pts</span>
+            </div>
+            <div class="Displacement">
+                <span>Deslocamento:</span>
+                <span class="stats-value">20 m</span>
+            </div>
+            <div class="TOQ-points">
+                <span>Toque:</span>
+                <span class="stats-value">20 pts</span>
+            </div>
+        </div>
+
+        <div class="res-info">
+            
+        </div>
+
+        <div class="weapons-info section-info">
+            <div class="div-head">
+                <p>Armas</p>
+                <img class="info-button" src="{% static './imgs/expand_more.svg' %}" alt="">
+            </div>
+            <div class="info-content">
+                <span>Ataque</span>
+                <span>Bonûs de Ataque</span>
+                <span>Dano</span>
+                <span>Bonûs de Ataque</span>
+            </div>
+        </div>
+
+        <div class="armor-info section-info">
+            <div class="div-head">
+                <p>Armadura e Proteção</p>
+                <img class="info-button" src="{% static './imgs/expand_more.svg' %}" alt="">
+            </div>
+            <div class="info-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dolores. Nam laboriosam ex necessitatibus unde, esse omnis dignissimos atque repudiandae asperiores excepturi odit eveniet nihil quidem modi quisquam, iure nisi recusandae rem enim aspernatur! Dolor sit eos quos, dolore nam exercitationem hic amet, ipsa optio voluptate magni quibusdam expedita voluptas non nulla saepe asperiores perspiciatis at atque nisi facilis. Assumenda ex quisquam tempora ea quos, perferendis vero nesciunt consequuntur esse officia est hic tempore, odit vitae aspernatur distinctio delectus totam eum quibusdam fuga ullam facilis. Alias illum optio quod a aliquam quisquam eius repellendus, nam minima commodi, iusto pariatur numquam.</p>
+            </div>
+        </div>
+
+        <div class="items-info section-info">
+            <div class="div-head">
+                <p>Itens</p>
+                <img class="info-button" src="{% static './imgs/expand_more.svg' %}" alt="">
+            </div>
+            <div class="info-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dolores. Nam laboriosam ex necessitatibus unde, esse omnis dignissimos atque repudiandae asperiores excepturi odit eveniet nihil quidem modi quisquam, iure nisi recusandae rem enim aspernatur! Dolor sit eos quos, dolore nam exercitationem hic amet, ipsa optio voluptate magni quibusdam expedita voluptas non nulla saepe asperiores perspiciatis at atque nisi facilis. Assumenda ex quisquam tempora ea quos, perferendis vero nesciunt consequuntur esse officia est hic tempore, odit vitae aspernatur distinctio delectus totam eum quibusdam fuga ullam facilis. Alias illum optio quod a aliquam quisquam eius repellendus, nam minima commodi, iusto pariatur numquam.</p>
+            </div>
+        </div>
+
+    </main>
+    <script src="{% static './js/profileButtons.js' %}"></script>
 </body>
 </html>

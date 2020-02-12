@@ -23,6 +23,10 @@ class CharacterView(ListView):
     def get_queryset(self):
         return CharacterMain.objects.filter(user_character=self.request.user)
 
+def char_profile(request):
+    return render(request,
+                  "main/char_profile.html",
+                  )
 
 def register(request):
     if request.method == "POST":
