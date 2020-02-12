@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
+from .models import CharacterMain
 
 
 class NewUserform(UserCreationForm):
@@ -16,3 +17,15 @@ class NewUserform(UserCreationForm):
         if commit:
             user.save()
         return user
+
+
+class CharacterMainForm(forms.ModelForm):
+
+    class Meta:
+        model = CharacterMain
+        fields = ["char_name",
+                  "char_race",
+                  "char_class",
+                  "char_alignement",
+                  ]
+

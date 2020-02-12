@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    {% load static %}
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/form.css">
-    <link rel="shortcut icon" href=".imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{% static './styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static './styles/form.css' %}">
+    <link rel="shortcut icon" href="{% static '.imgs/favicon.ico' %}" type="image/x-icon">
     <title>Rolling Dices - Novo Personagem</title>
 </head>
 <body>
     <div class="content">
         <header>
             <div class="back-button-div">
-                <a href="index.html"><img src="./imgs/back_button.svg" alt="" class="button-back"></a>
+                <a href="index.html"><img src="{% static './imgs/back_button.svg' %}" alt="" class="button-back"></a>
             </div>
             <p class="main-text">
                 Vamos começar com algumas informações básicas, ok? :)
@@ -21,36 +26,45 @@
         </header>
 
         <main>
-            <form action="form_new_char_bio.html" class="basic-info">
+            <form action="" class="basic-info" method="POST">
+                {% csrf_token %}
                 <div id="name-char-div">
-                    <label for="" class="basic-info-label">
+                    <label for="char_name" class="basic-info-label">
                         Qual o nome do personagem?
                     </label>
-                    <input type="text" id="name-char" name="name-char" class="basic-info-input">                    
+                    <input type="text" id="char_name" name="char_name" class="basic-info-input" required>
                 </div>
                 <div id="race-char-div">
-                    <label for="" class="basic-info-label">
+                    <label for="char_race" class="basic-info-label">
                         Qual a sua raça?
                     </label>
-                    <input type="text" id="race-char" name="race-char" class="basic-info-input">                    
+                    <input type="text" id="char_race" name="char_race" class="basic-info-input" required>
                 </div>
                 <div id="class-char-div">
-                    <label for="" class="basic-info-label">
+                    <label for="char_class" class="basic-info-label">
                         E a sua classe?
                     </label>
-                    <input type="text" id="class-char" name="class-char" class="basic-info-input">                    
+                    <input type="text" id="char_class" name="char_class" class="basic-info-input" required>
                 </div>
                 <div id="align-char-div">
-                    <label for="" class="basic-info-label">
+                    <label for="char_alignement" class="basic-info-label">
                         Qual o alinhamento?
                     </label>
-                    <input type="text" id="align-char" name="align-char" class="basic-info-input">                    
+                    <input type="text" id="char_alignement" name="char_alignement" class="basic-info-input" required>
                 </div>
+                <label for="char_shortbio" class="basic-info-label">
+                    E qual a história do seu Heroi ou Heroina?
+                </label>
+                <div id="bio-char-div">
+                    <textarea type="text" id="char_shortbio" name="char_shortbio" class="basic-info-input basic-info-text"></textarea>
+                </div>
+
                 <div class="submit-button-div">
-                    <input type="submit" value="Continuar" class="submit-button">
+                    <button type="submit" class="submit-button">Continuar</button>
                 </div>
             </form>
         </main>
     </div>
 </body>
+{% include "./includes/messages.html" %}
 </html>

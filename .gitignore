@@ -6,3 +6,5 @@ NextSession/.env
 NextSession/NextSession/settings.py
 NextSession/.idea
 NextSession/venv
+NextSession/clear/migrations/
+NextSession/main/migrations/

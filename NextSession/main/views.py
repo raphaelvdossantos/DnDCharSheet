@@ -1,24 +1,27 @@
 from django.shortcuts import render, redirect
-from .models import CharDescription
+from .models import CharacterMain
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
-from .forms import NewUserform
-
-
+from django.contrib.auth.decorators import login_required
+from .forms import NewUserform, CharacterMainForm
+from django.views.generic import ListView
 # Create your views here.
 
 
 def homepage(request):
     return render(request=request,
                   template_name="main/home.html",
-                  context={"Characters": CharDescription.objects.all()})
-
-
-def index(request):
-    return render(request,
-                  "main/index.html",
                   )
+
+
+class CharacterView(ListView):
+    model = CharacterMain
+    template_name = "main/index.html"
+    context_object_name = "all_user_characters"
+
+    def get_queryset(self):
+        return CharacterMain.objects.filter(user_character=self.request.user)
 
 def char_profile(request):
     return render(request,
@@ -76,3 +79,23 @@ def login_request(request):
     return render(request,
                   "main/form_login.html",
                   {"form": form})
+
+
+def new_character(request):
+
+    form = CharacterMainForm(request.POST or None)
+    if form.is_valid():
+        user_character = form.save(commit=False)
+        user_character.user_character = request.user
+        user_character.save()
+        messages.info(request, "Character Created Successfully!")
+        return redirect("main:index")
+
+    return render(request,
+                  "main/form_new_char.html",
+                  {"form":form})
+
+
+
+
+

@@ -16,6 +16,7 @@ Including another URLconf
 from django.urls import path
 from . import views
 
+
 app_name = "main"
 
 urlpatterns = [
@@ -23,6 +24,6 @@ urlpatterns = [
     path("register/", views.register, name="register"),
     path("logout/", views.logout_request, name="logout"),
     path("login/", views.login_request, name="login"),
-    path("index/", views.index, name="index"),
-    path("profile/", views.char_profile, name="profile"),
+    path("index/", views.CharacterView.as_view(), name="index"),
+    path("newchar/", views.new_character, name="new_character"),
     ]
