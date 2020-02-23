@@ -17,7 +17,6 @@
 <body>
 
     <div id="content">
-
         <div class="hero-bg">
             <header>
                 <div class="slide">
@@ -39,7 +38,7 @@
                             <img src="{% static './imgs/more-options-button.png' %}" alt="character-menu" class="character-menu" id="character-menu">
                             <div class="options">
                                 <ul id="options-list" class="options-list">
-                                    <li><a href="/profile">Perfil</a></li>
+                                    <li><a href="/index/{{char.id}}">Perfil</a></li>
                                     <li><a href="#">Editar</a></li>
                                     <li><a href="#">Deletar</a></li>
                                 </ul>
@@ -51,8 +50,8 @@
                                 <p id="character-race">{{char.char_race}}</p>
                             </div>
                             <div class="character-level">
-                                <label for="level-num">{{char.char_level}}</label>
-                                <p class="level-num" id="level-num">5</p>
+                                <label for="level-num">Nível:</label>
+                                <p class="level-num" id="level-num">{{char.char_level}}</p>
                             </div>
                         </li>
                     {% endfor %}

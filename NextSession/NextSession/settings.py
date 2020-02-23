@@ -83,8 +83,8 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': '',
         'USER': '',
-        'PASSWORD':'',
-        'HOST':''
+        'PASSWORD': '',
+        'HOST': ''
     }
 }
 

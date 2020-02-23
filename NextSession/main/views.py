@@ -5,7 +5,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import NewUserform, CharacterMainForm
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 # Create your views here.
 
 
@@ -14,19 +14,6 @@ def homepage(request):
                   template_name="main/home.html",
                   )
 
-
-class CharacterView(ListView):
-    model = CharacterMain
-    template_name = "main/index.html"
-    context_object_name = "all_user_characters"
-
-    def get_queryset(self):
-        return CharacterMain.objects.filter(user_character=self.request.user)
-
-def char_profile(request):
-    return render(request,
-                  "main/char_profile.html",
-                  )
 
 def register(request):
     if request.method == "POST":
@@ -60,25 +47,28 @@ def logout_request(request):
 
 
 def login_request(request):
-    form = AuthenticationForm()
-    if request.method == "POST":
-        form = AuthenticationForm(request, data=request.POST)
-        if form.is_valid():
-            username = form.cleaned_data.get('username')
-            password = form.cleaned_data.get('password')
-            user = authenticate(username=username, password=password)
-            if user is not None:
-                login(request, user)
-                messages.info(request, f"Logged in as: {username}")
-                return redirect("main:index")
+    if not request.user.is_authenticated:
+        form = AuthenticationForm()
+        if request.method == "POST":
+            form = AuthenticationForm(request, data=request.POST)
+            if form.is_valid():
+                username = form.cleaned_data.get('username')
+                password = form.cleaned_data.get('password')
+                user = authenticate(username=username, password=password)
+                if user is not None:
+                    login(request, user)
+                    messages.info(request, f"Logged in as: {username}")
+                    return redirect("main:index")
+                else:
+                    messages.error(request, "Invalid User/Password")
             else:
                 messages.error(request, "Invalid User/Password")
-        else:
-            messages.error(request, "Invalid User/Password")
 
-    return render(request,
-                  "main/form_login.html",
-                  {"form": form})
+        return render(request,
+                      "main/form_login.html",
+                      {"form": form})
+    else:
+        return redirect("main:index")
 
 
 def new_character(request):
@@ -96,6 +86,19 @@ def new_character(request):
                   {"form":form})
 
 
+class CharacterView(ListView):
+    model = CharacterMain
+    template_name = "main/index.html"
+    context_object_name = "all_user_characters"
+
+    def get_queryset(self):
+        return CharacterMain.objects.filter(user_character=self.request.user)
+
+
+class CharacterMainView(DetailView):
+    template_name = "main/char_profile.html"
+    context_object_name = "selected_character"
+    queryset = CharacterMain.objects.all()
 
 
 

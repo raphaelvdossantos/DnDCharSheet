@@ -1,7 +1,7 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,15 +18,15 @@
             <img src="{% static './imgs/character_profile_ex.png' %}" alt="Avatar">
         </figure>
         <div class="char-info">
-            <span class="char-name">Nome da Personagem</span>
+            <span class="char-name">{{selected_character.char_name}}</span>
             <div class="class-race">
-                <span class="char-class">Classe</span>
-                <span class="char-race">Raça</span>
+                <span class="char-class">{{selected_character.char_class}}</span>
+                <span class="char-race">{{selected_character.char_race}}</span>
             </div>
             <div class="char-stats">
                 <div class="char-stat">
                     <span>Nivel:</span>
-                    <span class="char-level">5</span>
+                    <span class="char-level">{{selected_character.char_level}}</span>
                 </div>
                 <div class="char-stat">
                     <span>XP:</span>
@@ -147,7 +147,6 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dolores. Nam laboriosam ex necessitatibus unde, esse omnis dignissimos atque repudiandae asperiores excepturi odit eveniet nihil quidem modi quisquam, iure nisi recusandae rem enim aspernatur! Dolor sit eos quos, dolore nam exercitationem hic amet, ipsa optio voluptate magni quibusdam expedita voluptas non nulla saepe asperiores perspiciatis at atque nisi facilis. Assumenda ex quisquam tempora ea quos, perferendis vero nesciunt consequuntur esse officia est hic tempore, odit vitae aspernatur distinctio delectus totam eum quibusdam fuga ullam facilis. Alias illum optio quod a aliquam quisquam eius repellendus, nam minima commodi, iusto pariatur numquam.</p>
             </div>
         </div>
-
     </main>
     <script src="{% static './js/profileButtons.js' %}"></script>
 </body>
