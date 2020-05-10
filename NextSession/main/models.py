@@ -17,6 +17,7 @@ class CharacterMain(models.Model):
 
 
 class BaseStatus(models.Model):
+    char_basestatus = models.ForeignKey(CharacterMain, on_delete=models.CASCADE, default=1)
     char_str = models.IntegerField()
     char_dex = models.IntegerField()
     char_con = models.IntegerField()

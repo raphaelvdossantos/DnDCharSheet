@@ -8,3 +8,6 @@ NextSession/.idea
 NextSession/venv
 NextSession/clear/migrations/
 NextSession/main/migrations/
+venv/
+.sqlite3
+.pyc

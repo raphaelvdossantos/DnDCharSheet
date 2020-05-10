@@ -80,11 +80,12 @@ WSGI_APPLICATION = 'NextSession.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': ''
+##        'ENGINE': 'django.db.backends.sqlite3',
+##        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+          'ENGINE': 'djongo',
+           'NAME': 'RollingDices',
+           'HOST': 'localhost',
+           'PORT': 27017,
     }
 }
 

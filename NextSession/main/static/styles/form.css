@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+
 html, body {
     height: 100%;
 }
@@ -77,11 +78,18 @@ header {
     transform: scale(1.025);
 }
 
-.submit-button-div {
-    margin: 3em 0;
+.attribute-columns{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.submit-button {
+.submit-button-div {
+    overflow: hidden;
+    margin: 1em 0;
+}
+
+
+.general-button {
     width: 100%;
     height: 2em;
     background: #4a89dc;
@@ -97,9 +105,24 @@ header {
     transition: background-color 200ms ease;
 }
 
-.submit-button:hover {
+.general-button:hover {
     background-color: #376aad;
     transition: 200ms;
+}
+
+.pagination-button-div {
+    overflow: hidden;
+    margin: 3em 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.previous-button{
+    width: 40%;
+}
+
+.next-button{
+    width: 40%;
 }
 
 /* Estilização página bio */

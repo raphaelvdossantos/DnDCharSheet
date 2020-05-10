@@ -1,0 +1,8 @@
+$colors: (
+    bg-color:  #1F1F23,
+    primary: #ffffff,
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name )
+}
