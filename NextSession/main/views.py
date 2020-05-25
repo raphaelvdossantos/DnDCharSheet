@@ -1,10 +1,10 @@
-from django.shortcuts import render, redirect
-from .models import CharacterMain
+from django.shortcuts import render, redirect, HttpResponse
+from .models import CharacterMain, BaseStatus
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .forms import NewUserform, CharacterMainForm
+from .forms import NewUserform, CharacterMainForm, CharacterAttributesForm
 from django.views.generic import ListView, DetailView
 # Create your views here.
 
@@ -78,12 +78,38 @@ def new_character(request):
         user_character = form.save(commit=False)
         user_character.user_character = request.user
         user_character.save()
-        messages.info(request, "Character Created Successfully!")
-        return redirect("main:index")
+        return redirect("main:attributes")
 
     return render(request,
                   "main/form_new_char.html",
                   {"form":form})
+
+
+def new_char_attributes(request):
+
+    form = CharacterAttributesForm(request.POST or None)
+    if form.is_valid():
+        character_attributes = form.save(commit=False)
+        character = CharacterMain.objects.filter(user_character=request.user).order_by('-id')[0]
+        character_attributes.charactermain = character
+        character_attributes.save()
+        messages.info(request, "Character Created Successfully!")
+        return redirect("main:index")
+    else:
+        messages.error(request, "Something Went Wrong!")
+
+    return render(request,
+                  "main/form_new_char_attributes.html",
+                  {"form":form})
+
+
+def characterdetails(request, **kwargs):
+    persona = CharacterMain.objects.get(pk=kwargs['pk'])
+    attributes = BaseStatus.objects.get(charactermain=kwargs['pk'])
+    context = {"character":persona, "attributes":attributes}
+    return render(request,
+                  "main/char_profile.html",
+                  context)
 
 
 class CharacterView(ListView):
@@ -93,12 +119,6 @@ class CharacterView(ListView):
 
     def get_queryset(self):
         return CharacterMain.objects.filter(user_character=self.request.user)
-
-
-class CharacterMainView(DetailView):
-    template_name = "main/char_profile.html"
-    context_object_name = "selected_character"
-    queryset = CharacterMain.objects.all()
 
 
 

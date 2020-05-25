@@ -1,10 +1,11 @@
 // Pagination Handling
-var pages = document.querySelectorAll('#page');
-console.log(pages)
 
-var nextButton = document.getElementById('next-button');
-var previousButton = document.getElementById('previous-button');
-var submitButton = document.getElementById('submit-button');
+
+/*const pages = document.querySelectorAll('#page');
+
+const nextButton = document.getElementById('next-button');
+const previousButton = document.getElementById('previous-button');
+const submitButton = document.getElementById('submit-button');
 var pageNumber = 0;
 
 nextButton.addEventListener('click', () => {
@@ -15,13 +16,13 @@ nextButton.addEventListener('click', () => {
 
 	if(pageNumber<2){
 		pages[pageNumber].style.display = 'block';
+		console.log(pageNumber)
 
 	}else{	
 		pages[pageNumber].style.display = 'block';
 		nextButton.style.display = 'none';
 		submitButton.style.display= 'block';
 	}
-	
 })
 
 previousButton.addEventListener('click', () => {
@@ -38,6 +39,16 @@ previousButton.addEventListener('click', () => {
 		nextButton.style.display = 'block';
 	}
 	
+})
+*/
+
+const submitButton = document.getElementById('submit-button')
+
+submitButton.addEventListener('click', () => {
+    if(confirm("Pressione 'OK' se estiver tudo certo!")){
+    $('form').submit()}
+    else{
+    }
 })
 
 
@@ -65,16 +76,12 @@ function attributeRoll(){
 }
 
 
-var attributeFields = document.querySelectorAll('#attr-value');
-
-var rollButton = document.getElementById('roll-button');
-
+const attributeFields = document.querySelectorAll('.basic-info-input');
+const rollButton = document.getElementById('roll-button');
 
 rollButton.addEventListener('click',() => {
-  console.log('button pressed');
-  console.log(attributeFields)
+
   for(attribute in attributeFields){
     attributeFields[attribute].value = attributeRoll()
-    console.log('attribute')
   }
 });

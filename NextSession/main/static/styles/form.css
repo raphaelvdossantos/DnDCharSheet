@@ -84,8 +84,7 @@ header {
 }
 
 .submit-button-div {
-    overflow: hidden;
-    margin: 1em 0;
+    margin: 3em 0;
 }
 
 
@@ -108,21 +107,6 @@ header {
 .general-button:hover {
     background-color: #376aad;
     transition: 200ms;
-}
-
-.pagination-button-div {
-    overflow: hidden;
-    margin: 3em 0;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.previous-button{
-    width: 40%;
-}
-
-.next-button{
-    width: 40%;
 }
 
 /* Estilização página bio */

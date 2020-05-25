@@ -24,97 +24,43 @@
                 Vamos começar com algumas informações básicas, ok? :)
             </p>
         </header>
-
         <main>
             <form action="" class="basic-info" method="POST">
-                <div class="page" id="page" style="display:block">
-                    {% csrf_token %}
-                    <div id="name-char-div">
-                        <label for="char_name" class="basic-info-label">
-                            Qual o nome do personagem?
-                        </label>
-                        <input type="text" id="char_name" name="char_name" class="basic-info-input" required>
-                    </div>
-                    <div id="race-char-div">
-                        <label for="char_race" class="basic-info-label">
-                            Qual a sua raça?
-                        </label>
-                        <input type="text" id="char_race" name="char_race" class="basic-info-input" required>
-                    </div>
-                    <div id="class-char-div">
-                        <label for="char_class" class="basic-info-label">
-                            E a sua classe?
-                        </label>
-                        <input type="text" id="char_class" name="char_class" class="basic-info-input" required>
-                    </div>
-                    <div id="align-char-div">
-                        <label for="char_alignement" class="basic-info-label">
-                            Qual o alinhamento?
-                        </label>
-                        <input type="text" id="char_alignement" name="char_alignement" class="basic-info-input" required>
-                    </div>                                   
+                {% csrf_token %}
+                <div id="name-char-div">
+                    <label for="char_name" class="basic-info-label">
+                        Qual o nome do personagem?
+                    </label>
+                    <input type="text" id="char_name" name="char_name" class="basic-info-input" required>
                 </div>
-                <div class="page" id="page" style="display:none">
-                    <label for="char_shortbio" class="basic-info-label">
-                        E qual a história do seu Heroi ou Heroina?
-                    </label> 
-                    <div id="bio-char-div">
-                        <textarea type="text" id="char_shortbio" name="char_shortbio" class="basic-info-input basic-info-text"></textarea>
-                    </div>
+                <div id="race-char-div">
+                    <label for="char_race" class="basic-info-label">
+                        Qual a sua raça?
+                    </label>
+                    <input type="text" id="char_race" name="char_race" class="basic-info-input" required>
                 </div>
-                <div class="page" id="page" style="display:none">
-                    <div class="submit-button-div">
-                        <button type="button" class="general-button" id="roll-button">
-                        Rolar Atributos
-                        </button>
-                    </div>
-                    <div class="attribute-columns">
-                        <div class="attributes">
-                            <ul>
-                                <li>
-                                    <label class="basic-info-label">FORÇA</label>
-                                    <input class="basic-info-input" id="attr-value" readonly>
-                                </li>
-                                <li>
-                                    <label class="basic-info-label">DESTREZA</label>
-                                    <input  class="basic-info-input" id="attr-value" readonly>
-                                </li>
-                                <li>
-                                    <label class="basic-info-label">CONSTITUIÇÃO</label>
-                                    <input class="basic-info-input" id="attr-value" readonly>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="attributes">
-                            <ul>
-                                <li>
-                                    <label class="basic-info-label">INTELIGÊNCIA</label>
-                                    <input class="basic-info-input" id="attr-value" readonly>
-                                </li>
-                                <li>
-                                    <label class="basic-info-label">SABEDORIA</label>
-                                    <input class="basic-info-input" id="attr-value" readonly>
-                                </li>
-                                <li>
-                                    <label class="basic-info-label">CARISMA</label>
-                                    <input class="basic-info-input" id="attr-value" readonly>
-                                </li>
-                            </ul>
-                      </div>
-                    </div>
+                <div id="class-char-div">
+                    <label for="char_class" class="basic-info-label">
+                        E a sua classe?
+                    </label>
+                    <input type="text" id="char_class" name="char_class" class="basic-info-input" required>
                 </div>
-                <div class="pagination-button-div">
-                    <button class="general-button previous-button" id="previous-button" style="display:none">
-                        Anterior
-                    </button>           
-                    <button class="general-button next-button" id="next-button">Continuar</button>
+                <div id="align-char-div">
+                    <label for="char_alignement" class="basic-info-label">
+                        Qual o alinhamento?
+                    </label>
+                    <input type="text" id="char_alignement" name="char_alignement" class="basic-info-input" required>
+                </div>
+                <label for="char_shortbio" class="basic-info-label">
+                    E qual a história do seu Heroi ou Heroina?
+                </label>
+                <div id="bio-char-div">
+                    <textarea type="text" id="char_shortbio" name="char_shortbio" class="basic-info-input basic-info-text"></textarea>
                 </div>
                 <div class="submit-button-div" >
-                    <button type="submit" class="general-button" id="submit-button" style="display:none">
-                        Salvar
-                    </button>
+                    <button class="general-button" id="submit-button">Salvar</button>
                 </div>
-            </form>          
+            </form>
         </main>
     </div>
 </body>

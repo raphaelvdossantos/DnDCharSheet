@@ -27,6 +27,7 @@ urlpatterns = [
     path("logout/", views.logout_request, name="logout"),
     path("login/", views.login_request, name="login"),
     path("index/", views.CharacterView.as_view(), name="index"),
-    path("newchar/", views.new_character, name="new_character"),
-    path("index/<pk>", views.CharacterMainView.as_view(), name="charprofile"),
+    path("newcharacter/", views.new_character, name="new_character"),
+    path("newcharacter/character/", views.new_char_attributes, name="attributes"),
+    path("index/<pk>", views.characterdetails, name="charprofile"),
     ]

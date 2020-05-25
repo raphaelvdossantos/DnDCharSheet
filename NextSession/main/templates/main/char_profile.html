@@ -18,19 +18,19 @@
             <img src="{% static './imgs/character_profile_ex.png' %}" alt="Avatar">
         </figure>
         <div class="char-info">
-            <span class="char-name">{{selected_character.char_name}}</span>
+            <span class="char-name">{{character.char_name}}</span>
             <div class="class-race">
-                <span class="char-class">{{selected_character.char_class}}</span>
-                <span class="char-race">{{selected_character.char_race}}</span>
+                <span class="char-class">{{character.char_class}}</span>
+                <span class="char-race">{{character.char_race}}</span>
             </div>
             <div class="char-stats">
                 <div class="char-stat">
                     <span>Nivel:</span>
-                    <span class="char-level">{{selected_character.char_level}}</span>
+                    <span class="char-level">{{character.char_level}}</span>
                 </div>
                 <div class="char-stat">
                     <span>XP:</span>
-                    <span class="char-level">20</span>
+                    <span class="char-level">{{character.char_exp}}</span>
                 </div>
             </div>
             <div class="char-gold">
@@ -46,7 +46,7 @@
         </div>
     </aside>
     <main class="columns-scroll char-file">
-        <table class="att-table">
+        <table class="att-table" id="att-table">
             <thead>
                 <tr>
                     <th>Atributo</th>
@@ -57,33 +57,33 @@
             <tbody>
                 <tr>
                     <td>Força</td>
-                    <td>10</td>
-                    <td>8</td>
+                    <td id="attributeValue">{{attributes.char_str}}</td>
+                    <td id="attributeMod">8</td>
                 </tr>
                 <tr>
                     <td>Destreza</td>
-                    <td>10</td>
-                    <td>8</td>
+                    <td id="attributeValue">{{attributes.char_dex}}</td>
+                    <td id="attributeMod">8</td>
                 </tr>
                 <tr>
                     <td>Constituição</td>
-                    <td>10</td>
-                    <td>8</td>
+                    <td id="attributeValue">{{attributes.char_con}}</td>
+                    <td id="attributeMod">8</td>
                 </tr>
                 <tr>
                     <td>Inteligência</td>
-                    <td>10</td>
-                    <td>8</td>
+                    <td id="attributeValue">{{attributes.char_int}}</td>
+                    <td id="attributeMod">8</td>
                 </tr>
                 <tr>
                     <td>Sabedoria</td>
-                    <td>10</td>
-                    <td>8</td>
+                    <td id="attributeValue">{{attributes.char_wis}}</td>
+                    <td id="attributeMod">8</td>
                 </tr>
                 <tr>
                     <td>Carisma</td>
-                    <td>10</td>
-                    <td>8</td>
+                    <td id="attributeValue">{{attributes.char_cha}}</td>
+                    <td id="attributeMod">8</td>
                 </tr>
             </tbody>
         </table>
@@ -149,5 +149,7 @@
         </div>
     </main>
     <script src="{% static './js/profileButtons.js' %}"></script>
+    <script src="{% static './js/characterView.js' %}"></script>
+
 </body>
 </html>

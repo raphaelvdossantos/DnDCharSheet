@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Rolling Dices - Novo Personagems</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static './styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static './styles/form.css' %}">
+    <link rel="shortcut icon" href="{% static '.imgs/favicon.ico' %}" type="image/x-icon">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="back-button-div">
+                <a href="/index"><img src="{% static './imgs/back_button.svg' %}" alt="" class="button-back"></a>
+            </div>
+            <p class="main-text">
+                Agora Vamos rolar os Atributos!
+            </p>
+        </header>
+        <main>
+            <form action="" class="basic-info" method="POST">
+                {% csrf_token %}
+                <div class="submit-button-div">
+                    <button type="button" class="general-button" id="roll-button">
+                    Rolar Atributos
+                    </button>
+                </div>
+                <div class="attribute-columns">
+                    <div class="attributes">
+                        <ul>
+                            <li>
+                                <label for="char_str" class="basic-info-label">FORÇA</label>
+                                <input name="char_str" class="basic-info-input" id="char_str" readonly>
+                            </li>
+                            <li>
+                                <label for="char_dex"  class="basic-info-label">DESTREZA</label>
+                                <input name="char_dex" class="basic-info-input" id="char_dex" readonly>
+                            </li>
+                            <li>
+                                <label for="char_con" class="basic-info-label">CONSTITUIÇÃO</label>
+                                <input name="char_con" class="basic-info-input" id="char_con" readonly>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="attributes">
+                        <ul>
+                            <li>
+                                <label  for="char_int" class="basic-info-label">INTELIGÊNCIA</label>
+                                <input name="char_int" class="basic-info-input" id="char_int" readonly>
+                            </li>
+                            <li>
+                                <label for="char_wis" class="basic-info-label">SABEDORIA</label>
+                                <input name="char_wis" class="basic-info-input" id="char_wis" readonly>
+                            </li>
+                            <li>
+                                <label for="char_cha" class="basic-info-label">CARISMA</label>
+                                <input name="char_cha" class="basic-info-input" id="char_cha" readonly>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="submit-button-div" >
+                    <button class="general-button" id="submit-button">Salvar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+<script src="{% static './js/charFormButtons.js' %}"></script>
+</html>

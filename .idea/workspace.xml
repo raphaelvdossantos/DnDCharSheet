@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Manoela_Rosa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NextSession/main/static/js/characterView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char_attributes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Draft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Draft.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/NextSession/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/NextSession/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/static/js/charFormButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/static/js/charFormButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/static/styles/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/static/styles/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/char_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/char_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +64,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -150,10 +156,6 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="402" y="0" key="#Character_Creation/0.0.1366.768@0.0.1366.768" timestamp="1587946502371" />
-    <state x="278" y="61" width="800" height="670" key="#Inspections" timestamp="1580690102780">
-      <screen x="0" y="32" width="1366" height="736" />
-    </state>
-    <state x="278" y="61" width="800" height="670" key="#Inspections/0.32.1366.736@0.32.1366.736" timestamp="1580690102780" />
     <state x="137" y="39" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587946324469">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -178,9 +180,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1588126526600" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580615991863">
-      <screen x="0" y="32" width="1366" height="736" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589759810299">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1580615991863" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1589759810299" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1589755161343">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1366.768@0.0.1366.768" timestamp="1589755161343" />
+    <state x="346" y="59" width="672" height="708" key="search.everywhere.popup" timestamp="1589165650092">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="59" width="672" height="708" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589165650092" />
   </component>
 </project>

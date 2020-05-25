@@ -17,13 +17,13 @@ class CharacterMain(models.Model):
 
 
 class BaseStatus(models.Model):
-    char_basestatus = models.ForeignKey(CharacterMain, on_delete=models.CASCADE, default=1)
-    char_str = models.IntegerField()
-    char_dex = models.IntegerField()
-    char_con = models.IntegerField()
-    char_int = models.IntegerField()
-    char_wis = models.IntegerField()
-    char_cha = models.IntegerField()
+    charactermain = models.ForeignKey(CharacterMain, on_delete=models.CASCADE)
+    char_str = models.IntegerField(default=10)
+    char_dex = models.IntegerField(default=10)
+    char_con = models.IntegerField(default=10)
+    char_int = models.IntegerField(default=10)
+    char_wis = models.IntegerField(default=10)
+    char_cha = models.IntegerField(default=10)
 
 
 class CombatStatus(models.Model):
