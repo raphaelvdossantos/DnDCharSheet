@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f806f82-e4b3-4fe4-856e-754d34ce022a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Manoela_Rosa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NextSession/main/static/js/characterView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char_attributes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/NextSession/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/NextSession/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextSession/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/js/charFormButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/static/js/charFormButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/static/styles/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/static/styles/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/char_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/char_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/form_new_char.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSession/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextSession/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/static/styles/colormap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/static/styles/colormap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextSession/main/static/styles/colormap.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

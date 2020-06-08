@@ -45,6 +45,13 @@ class CharSkills(models.Model):
     skill_graduation = models.IntegerField()
 
 
+class Systems(models.Model):
+    name = models.CharField(max_length=20)
+    shortDescription = models.TextField(max_length=100)
+
+
+
+
 
 
 
